@@ -53,12 +53,33 @@ export default function SpaceAllocationApp() {
   }, []);
 
   const buildings = useMemo(() => {
-    return Array.from(new Set(spaces.map((s) => s.sheet)));
+    const list = Array.from(new Set(spaces.map((s) => s.sheet)));
+    // Natural order: AB1, AB2, ... AB9, AB10 (not AB1, AB10, AB11, AB2)
+    return list.sort((a, b) => {
+      const na = parseInt(String(a).replace(/\D/g, ''), 10) || 0;
+      const nb = parseInt(String(b).replace(/\D/g, ''), 10) || 0;
+      return na - nb;
+    });
   }, [spaces]);
 
   const floors = useMemo(() => {
     const buildingSpaces = spaces.filter((s) => s.sheet === selectedBuilding);
-    return Array.from(new Set(buildingSpaces.map((s) => s.floor)));
+    const unique = Array.from(new Set(buildingSpaces.map((s) => s.floor)));
+    // Logical floor order: Ground → First → Second → Third ...
+    const rank: Record<string, number> = {
+      'ground floor': 0,
+      'first floor': 1,
+      'second floor': 2,
+      'third floor': 3,
+      'fourth floor': 4,
+      'fifth floor': 5,
+      'all floors': 99,
+    };
+    return unique.sort((a, b) => {
+      const ra = rank[String(a).toLowerCase()] ?? 50;
+      const rb = rank[String(b).toLowerCase()] ?? 50;
+      return ra - rb;
+    });
   }, [spaces, selectedBuilding]);
 
   useEffect(() => {

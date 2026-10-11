@@ -40,7 +40,7 @@ export default function SvgMap({
           setPositions(savedPositions);
           return;
         }
-      } catch (e) { }
+      } catch (e) {}
 
       // Matrix fallback if no saved layout
       const newPositions: any = {};
@@ -60,6 +60,10 @@ export default function SvgMap({
 
   const handleMouseMove = (e: React.MouseEvent) => {
     if (!isAdmin) return; // Guests cannot move boxes
+    if (!dragging && !resizing) return;
+
+    // Prevent browser from selecting text / scrolling while dragging
+    e.preventDefault();
 
     if (dragging) {
       setHasDragged(true);
@@ -126,7 +130,20 @@ export default function SvgMap({
     setTimeout(() => setIsSaving(false), 1000);
   };
 
-  const bgImagePath = `/${building.toLowerCase()}_floorplan.png`;
+  // Per-floor image naming:
+  //   ab3_ground_floor.png
+  //   ab3_first_floor.png
+  //   ab3_second_floor.png
+  //   ab4_ground_floor.png  etc.
+  const floorSlug = floor.replace(/\s+/g, '_').toLowerCase();
+  const bgImagePath = `/${building.toLowerCase()}_${floorSlug}.png`;
+
+  // Fixed canvas size so resizing/dragging never changes layout size
+  // (changing size during drag was causing the whole page to jump).
+  // Image and boxes share the same coordinate space → they stay matched
+  // at any browser zoom level (including 67%).
+  const CANVAS_W = 1800;
+  const CANVAS_H = 1200;
 
   return (
     <div className="relative">
@@ -159,20 +176,27 @@ export default function SvgMap({
       )}
 
       <div
-        className={`w-full h-175 bg-slate-100 rounded-xl border-2 border-slate-300 overflow-hidden relative select-none ${isAdmin ? 'cursor-crosshair' : 'cursor-default'
-          }`}
+        className={`w-full bg-slate-100 rounded-xl border-2 border-slate-300 overflow-auto relative select-none ${
+          isAdmin ? 'cursor-crosshair' : 'cursor-default'
+        }`}
+        style={{ maxHeight: '80vh' }}
         onMouseMove={handleMouseMove}
         onMouseUp={handleMouseUp}
         onMouseLeave={handleMouseUp}
       >
-        <svg width="100%" height="100%" className="absolute inset-0">
+        <svg
+          width={CANVAS_W}
+          height={CANVAS_H}
+          viewBox={`0 0 ${CANVAS_W} ${CANVAS_H}`}
+          className="block"
+        >
           {showBackground && (
             <image
               href={bgImagePath}
               x="0"
               y="0"
-              width="100%"
-              height="100%"
+              width={CANVAS_W}
+              height={CANVAS_H}
               preserveAspectRatio="xMidYMid meet"
               className="opacity-40 pointer-events-none"
             />

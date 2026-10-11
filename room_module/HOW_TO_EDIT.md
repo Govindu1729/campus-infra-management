@@ -103,62 +103,194 @@ Important: After changing the Excel, you must run the parser script. Just saving
 
 2. How to change / add a floor plan image (blueprint)
 
-The visual map shows a background image for each building + floor.
+Each building + floor has its own image.
 
-Naming rule (very important):
+Naming rule (very important)
 
-The image file must be named like this:
+The image file name is built like this:
 
-ab3_floorplan.png
-ab4_floorplan.png
-ab5_floorplan.png
+{building in lowercase}_{floor with spaces turned into underscores}.png
+
+Exact examples
+
+
+
+
+
+
+
+Building
+
+
+
+Floor
+
+
+
+File name you must use
+
+
+
+
+
+AB3
+
+
+
+Ground Floor
+
+
+
+ab3_ground_floor.png
+
+
+
+
+
+AB3
+
+
+
+First Floor
+
+
+
+ab3_first_floor.png
+
+
+
+
+
+AB3
+
+
+
+Second Floor
+
+
+
+ab3_second_floor.png
+
+
+
+
+
+AB4
+
+
+
+Ground Floor
+
+
+
+ab4_ground_floor.png
+
+
+
+
+
+AB4
+
+
+
+First Floor
+
+
+
+ab4_first_floor.png
+
+
+
+
+
+AB5
+
+
+
+Second Floor
+
+
+
+ab5_second_floor.png
+
+
+
+
+
+AB13
+
+
+
+Third Floor
+
+
+
+ab13_third_floor.png
+
+Rules:
+
+
+
+
+
+Building code → lowercase (AB3 → ab3)
+
+
+
+Floor name → all lowercase, spaces become underscores
+
+
+
+File extension → .png (recommended)
+
+Where to put the image
+
+Put the file inside the public folder:
+
+frontend/public/ab3_ground_floor.png
+frontend/public/ab3_first_floor.png
+frontend/public/ab3_second_floor.png
 ...
 
-
-
-
-
-Use lowercase building code
-
-
-
-Always end with _floorplan.png
-
-Where to put the image:
-
-Put the image file inside the public folder of the frontend:
-
-frontend/public/ab3_floorplan.png
-
-Steps:
+Steps to add or change a floor plan
 
 
 
 
 
-Prepare your new floor plan image (PNG is best).
+Prepare the floor plan image (PNG is best).
 
 
 
-Rename it correctly, for example: ab3_floorplan.png
+Rename it exactly according to the table above
+(example: for AB3 Ground Floor → ab3_ground_floor.png).
 
 
 
-Copy / paste the file into the public folder.
+Copy the file into the public folder.
 
 
 
-If an old file with the same name exists, replace it.
+If a file with the same name already exists, replace it.
 
 
 
-Refresh the website.
+Refresh the website in the browser (F5 or Ctrl+R).
 
 
 
-Click “Show Blueprint” if it is hidden.
+Select the correct building and floor.
 
-That’s it. The map will now use the new image.
+
+
+Click Show Blueprint if the background is hidden.
+
+That’s it. The correct image will appear for that floor.
+
+Note about the old single-image naming
+
+Previously the app used only one image per building (ab3_floorplan.png).
+That is no longer used. You must now use the per-floor names shown above.
 
 
 
@@ -282,7 +414,7 @@ Floor plan images
 
 
 
-public/abX_floorplan.png
+public/abX_ground_floor.png, abX_first_floor.png, etc.
 
 
 
@@ -322,9 +454,8 @@ I changed the Excel but nothing changed on the website
 → You forgot to run the Python parser script. Run it and refresh the browser.
 
 The floor plan image does not appear
-→ Check the file name is exactly ab3_floorplan.png (lowercase) and it is inside the public folder.
-
-I cannot drag the boxes
+→ Check the file name follows the per-floor rule exactly (example: ab3_ground_floor.png) and it is inside the public folder.
+→ Make sure you selected the matching floor in the app. I cannot drag the boxes
 → You are not logged in as admin. Click Login and use an admin account.
 
 Save Layout button says error
@@ -349,7 +480,25 @@ Run the parser script → all_spaces.json updates.
 
 
 
-Put a floor plan image named abXX_floorplan.png into public/.
+Put one image per floor into public/, using the correct names:
+
+
+
+
+
+abXX_ground_floor.png
+
+
+
+abXX_first_floor.png
+
+
+
+abXX_second_floor.png
+
+
+
+etc.
 
 
 
@@ -357,6 +506,6 @@ Refresh the website → the new building tab appears.
 
 
 
-Login as admin → arrange the room boxes → click Save Layout.
+Login as admin → arrange the room boxes on each floor → click Save Layout.
 
 Done!
