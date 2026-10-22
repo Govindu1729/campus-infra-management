@@ -1,0 +1,5672 @@
+[
+  {
+    "sheet": "AB1",
+    "floor": "First Floor",
+    "building": "AB1",
+    "room": "201.0",
+    "type": "Classroom",
+    "allocation": "Academic Affairs",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB1",
+    "floor": "Ground Floor",
+    "building": "AB1",
+    "room": "101.0",
+    "type": "Classroom",
+    "allocation": "Academic Affairs",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB1",
+    "floor": "Ground Floor",
+    "building": "AB1",
+    "room": "102.0",
+    "type": "Classroom",
+    "allocation": "Academic Affairs",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB1",
+    "floor": "Ground Floor",
+    "building": "AB1",
+    "room": "103.0",
+    "type": "Classroom",
+    "allocation": "Academic Affairs",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB2",
+    "floor": "First Floor",
+    "building": "AB2",
+    "room": "201.0",
+    "type": "Office",
+    "allocation": "Institute Archives",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB2",
+    "floor": "First Floor",
+    "building": "AB2",
+    "room": "202.0",
+    "type": "Office",
+    "allocation": "CCL",
+    "intended_allocation": "(Short term for Manu Awasthi)"
+  },
+  {
+    "sheet": "AB2",
+    "floor": "Ground Floor",
+    "building": "AB2",
+    "room": "101.0",
+    "type": "Classroom",
+    "allocation": "Academic Affairs",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB2",
+    "floor": "Ground Floor",
+    "building": "AB2",
+    "room": "102.0",
+    "type": "Classroom",
+    "allocation": "CCL",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB3",
+    "floor": "First Floor",
+    "building": "AB3",
+    "room": "201-202",
+    "type": "Office",
+    "allocation": "Material Management",
+    "intended_allocation": "(Occupied by E&A - to be moved out)"
+  },
+  {
+    "sheet": "AB3",
+    "floor": "First Floor",
+    "building": "AB3",
+    "room": "203-204",
+    "type": "Office",
+    "allocation": "E&A",
+    "intended_allocation": "(Occupied by MM - to be moved out)"
+  },
+  {
+    "sheet": "AB3",
+    "floor": "First Floor",
+    "building": "AB3",
+    "room": "205-206",
+    "type": "Office",
+    "allocation": "Registrar",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB3",
+    "floor": "First Floor",
+    "building": "AB3",
+    "room": "209",
+    "type": "Office",
+    "allocation": "Unallocated",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB3",
+    "floor": "First Floor",
+    "building": "AB3",
+    "room": "210",
+    "type": "Office",
+    "allocation": "E&A",
+    "intended_allocation": "(Occupied by Jt Reg MM - to be moved out)"
+  },
+  {
+    "sheet": "AB3",
+    "floor": "First Floor",
+    "building": "AB3",
+    "room": "211",
+    "type": "Meeting Room",
+    "allocation": "Unallocated",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB3",
+    "floor": "First Floor",
+    "building": "AB3",
+    "room": "212",
+    "type": "Utility",
+    "allocation": "Unallocated",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB3",
+    "floor": "First Floor",
+    "building": "AB3",
+    "room": "213",
+    "type": "Office",
+    "allocation": "General Admin",
+    "intended_allocation": "(Used by MM and GA for storage)"
+  },
+  {
+    "sheet": "AB3",
+    "floor": "First Floor",
+    "building": "AB3",
+    "room": "214",
+    "type": "Office",
+    "allocation": "Finance & Accounts",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB3",
+    "floor": "First Floor",
+    "building": "AB3",
+    "room": "215",
+    "type": "Office",
+    "allocation": "External Relations (Comms)",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB3",
+    "floor": "First Floor",
+    "building": "AB3",
+    "room": "216",
+    "type": "Office",
+    "allocation": "Unallocated",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB3",
+    "floor": "First Floor",
+    "building": "AB3",
+    "room": "217",
+    "type": "Office",
+    "allocation": "Unallocated",
+    "intended_allocation": "(Used by MM and CD for storage)"
+  },
+  {
+    "sheet": "AB3",
+    "floor": "Ground Floor",
+    "building": "AB3",
+    "room": "101",
+    "type": "Office",
+    "allocation": "Reception",
+    "intended_allocation": "?"
+  },
+  {
+    "sheet": "AB3",
+    "floor": "Ground Floor",
+    "building": "AB3",
+    "room": "102",
+    "type": "Office",
+    "allocation": "Student Affairs",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB3",
+    "floor": "Ground Floor",
+    "building": "AB3",
+    "room": "103",
+    "type": "Office",
+    "allocation": "Student Affairs",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB3",
+    "floor": "Ground Floor",
+    "building": "AB3",
+    "room": "104",
+    "type": "Office",
+    "allocation": "Student Affairs",
+    "intended_allocation": "(CDS)"
+  },
+  {
+    "sheet": "AB3",
+    "floor": "Ground Floor",
+    "building": "AB3",
+    "room": "105",
+    "type": "Office",
+    "allocation": "Student Affairs",
+    "intended_allocation": "(Alumni Affairs)"
+  },
+  {
+    "sheet": "AB3",
+    "floor": "Ground Floor",
+    "building": "AB3",
+    "room": "106",
+    "type": "Office",
+    "allocation": "KPCSD",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB3",
+    "floor": "Ground Floor",
+    "building": "AB3",
+    "room": "107",
+    "type": "Lab",
+    "allocation": "CCL",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB3",
+    "floor": "Ground Floor",
+    "building": "AB3",
+    "room": "108",
+    "type": "Utility",
+    "allocation": "Unallocated",
+    "intended_allocation": "(Used for janitor services)"
+  },
+  {
+    "sheet": "AB3",
+    "floor": "Ground Floor",
+    "building": "AB3",
+    "room": "109",
+    "type": "Meeting Room",
+    "allocation": "Unallocated",
+    "intended_allocation": "(Occupied by AA - to be moved out)"
+  },
+  {
+    "sheet": "AB3",
+    "floor": "Ground Floor",
+    "building": "AB3",
+    "room": "110",
+    "type": "Office",
+    "allocation": "Academic Affairs",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB3",
+    "floor": "Ground Floor",
+    "building": "AB3",
+    "room": "112",
+    "type": "Office",
+    "allocation": "Academic Affairs",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB3",
+    "floor": "Ground Floor",
+    "building": "AB3",
+    "room": "113",
+    "type": "Office",
+    "allocation": "Academic Affairs",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB3",
+    "floor": "Second Floor",
+    "building": "AB3",
+    "room": "301",
+    "type": "Office",
+    "allocation": "Director Office",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB3",
+    "floor": "Second Floor",
+    "building": "AB3",
+    "room": "302",
+    "type": "Office",
+    "allocation": "Director Office",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB3",
+    "floor": "Second Floor",
+    "building": "AB3",
+    "room": "303",
+    "type": "Meeting Room",
+    "allocation": "Director Office",
+    "intended_allocation": "(Board Room)"
+  },
+  {
+    "sheet": "AB3",
+    "floor": "Second Floor",
+    "building": "AB3",
+    "room": "304",
+    "type": "Meeting Room",
+    "allocation": "Unallocated",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB3",
+    "floor": "Second Floor",
+    "building": "AB3",
+    "room": "305",
+    "type": "Meeting Room",
+    "allocation": "Director Office",
+    "intended_allocation": "(Dining Room)"
+  },
+  {
+    "sheet": "AB3",
+    "floor": "Second Floor",
+    "building": "AB3",
+    "room": "306A",
+    "type": "Meeting Room",
+    "allocation": "Opens to 305",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB3",
+    "floor": "Second Floor",
+    "building": "AB3",
+    "room": "306B",
+    "type": "Utility",
+    "allocation": "Pnatry room",
+    "intended_allocation": "(Also used as storage for CD)"
+  },
+  {
+    "sheet": "AB3",
+    "floor": "Second Floor",
+    "building": "AB3",
+    "room": "306C",
+    "type": "Office",
+    "allocation": "Chemical Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB3",
+    "floor": "Second Floor",
+    "building": "AB3",
+    "room": "306D",
+    "type": "Office",
+    "allocation": "Chemical Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB3",
+    "floor": "Second Floor",
+    "building": "AB3",
+    "room": "306E",
+    "type": "Office",
+    "allocation": "Mech Engg",
+    "intended_allocation": "(Rakesh Singhai)"
+  },
+  {
+    "sheet": "AB3",
+    "floor": "Second Floor",
+    "building": "AB3",
+    "room": "306F",
+    "type": "Office",
+    "allocation": "Director Office",
+    "intended_allocation": "(Used for storage)"
+  },
+  {
+    "sheet": "AB3",
+    "floor": "Second Floor",
+    "building": "AB3",
+    "room": "306G",
+    "type": "Office",
+    "allocation": "Material Management",
+    "intended_allocation": "(Used for storage)"
+  },
+  {
+    "sheet": "AB3",
+    "floor": "Second Floor",
+    "building": "AB3",
+    "room": "306H",
+    "type": "Office",
+    "allocation": "Director Office",
+    "intended_allocation": "(Used for storage)"
+  },
+  {
+    "sheet": "AB3",
+    "floor": "Second Floor",
+    "building": "AB3",
+    "room": "306I",
+    "type": "Office",
+    "allocation": "External Relations",
+    "intended_allocation": "(Used for storage)"
+  },
+  {
+    "sheet": "AB3",
+    "floor": "Second Floor",
+    "building": "AB3",
+    "room": "306J",
+    "type": "Office",
+    "allocation": "Campus Development",
+    "intended_allocation": "(Used for storage)"
+  },
+  {
+    "sheet": "AB3",
+    "floor": "Second Floor",
+    "building": "AB3",
+    "room": "307",
+    "type": "Utility",
+    "allocation": "Unallocated",
+    "intended_allocation": "(Used for janitor services)"
+  },
+  {
+    "sheet": "AB3",
+    "floor": "Second Floor",
+    "building": "AB3",
+    "room": "308",
+    "type": "Office",
+    "allocation": "General Admin",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB3",
+    "floor": "Second Floor",
+    "building": "AB3",
+    "room": "309",
+    "type": "Office",
+    "allocation": "General Admin",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB3",
+    "floor": "Second Floor",
+    "building": "AB3",
+    "room": "310",
+    "type": "Office",
+    "allocation": "General Admin",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB3",
+    "floor": "Second Floor",
+    "building": "AB3",
+    "room": "311-312",
+    "type": "Office",
+    "allocation": "Campus Development",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB3",
+    "floor": "Second Floor",
+    "building": "AB3",
+    "room": "313",
+    "type": "Office",
+    "allocation": "Campus Development",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB3",
+    "floor": "Second Floor",
+    "building": "AB3",
+    "room": "314",
+    "type": "Office",
+    "allocation": "Visiting Faculty",
+    "intended_allocation": "(Manish Tripathi)"
+  },
+  {
+    "sheet": "AB3",
+    "floor": "Second Floor",
+    "building": "AB3",
+    "room": "315",
+    "type": "Meeting Room",
+    "allocation": "Director Office",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB3",
+    "floor": "Second Floor",
+    "building": "AB3",
+    "room": "316",
+    "type": "Meeting Room",
+    "allocation": "Unallocated",
+    "intended_allocation": "(To be developed into a tea room)"
+  },
+  {
+    "sheet": "AB3",
+    "floor": "Second Floor",
+    "building": "AB3",
+    "room": "317",
+    "type": "Utility",
+    "allocation": "Unallocated",
+    "intended_allocation": "(To be developed into a pantry)"
+  },
+  {
+    "sheet": "AB3",
+    "floor": "Second Floor",
+    "building": "AB3",
+    "room": "318",
+    "type": "Office",
+    "allocation": "Research Park",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB3",
+    "floor": "Second Floor",
+    "building": "AB3",
+    "room": "319",
+    "type": "Office",
+    "allocation": "Research Park",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB3",
+    "floor": "Second Floor",
+    "building": "AB3",
+    "room": "320",
+    "type": "Office",
+    "allocation": "Research Park",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB3",
+    "floor": "Second Floor",
+    "building": "AB3",
+    "room": "321",
+    "type": "Office",
+    "allocation": "Research Park",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB3",
+    "floor": "Second Floor",
+    "building": "AB3",
+    "room": "322",
+    "type": "Office",
+    "allocation": "Institutional Advancement",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB3",
+    "floor": "Second Floor",
+    "building": "AB3",
+    "room": "323",
+    "type": "Office",
+    "allocation": "Institutional Advancement",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB3",
+    "floor": "Second Floor",
+    "building": "AB3",
+    "room": "324",
+    "type": "Office",
+    "allocation": "Institutional Advancement",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB3",
+    "floor": "Second Floor",
+    "building": "AB3",
+    "room": "324A",
+    "type": "Office",
+    "allocation": "Institutional Advancement",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB3",
+    "floor": "Second Floor",
+    "building": "AB3",
+    "room": "325",
+    "type": "Utility",
+    "allocation": "ELV Room",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB3",
+    "floor": "Second Floor",
+    "building": "AB3",
+    "room": "326",
+    "type": "Office",
+    "allocation": "R&D",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB3",
+    "floor": "Second Floor",
+    "building": "AB3",
+    "room": "326A",
+    "type": "Office",
+    "allocation": "R&D",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB3",
+    "floor": "Second Floor",
+    "building": "AB3",
+    "room": "327",
+    "type": "Office",
+    "allocation": "R&D",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB3",
+    "floor": "Second Floor",
+    "building": "AB3",
+    "room": "327A",
+    "type": "Office",
+    "allocation": "External Relations",
+    "intended_allocation": "(Occupied by SPM)"
+  },
+  {
+    "sheet": "AB3",
+    "floor": "Second Floor",
+    "building": "AB3",
+    "room": "327B",
+    "type": "Office",
+    "allocation": "R&D",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB3",
+    "floor": "Second Floor",
+    "building": "AB3",
+    "room": "328",
+    "type": "Office",
+    "allocation": "R&D",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB3",
+    "floor": "Second Floor",
+    "building": "AB3",
+    "room": "328A",
+    "type": "Office",
+    "allocation": "Alumni Relations",
+    "intended_allocation": "(Occupied by AP)"
+  },
+  {
+    "sheet": "AB3",
+    "floor": "Second Floor",
+    "building": "AB3",
+    "room": "328B",
+    "type": "Office",
+    "allocation": "Faculty Affairs",
+    "intended_allocation": "(Used to be with GKS)"
+  },
+  {
+    "sheet": "AB3",
+    "floor": "Second Floor",
+    "building": "AB3",
+    "room": "329",
+    "type": "Office",
+    "allocation": "Faculty Affairs",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB3",
+    "floor": "Second Floor",
+    "building": "AB3",
+    "room": "329A",
+    "type": "Office",
+    "allocation": "Faculty Affairs",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB3",
+    "floor": "Second Floor",
+    "building": "AB3",
+    "room": "329B",
+    "type": "Utility",
+    "allocation": "Unallocated",
+    "intended_allocation": "(Used for pantry)"
+  },
+  {
+    "sheet": "AB4",
+    "floor": "First Floor",
+    "building": "AB4",
+    "room": "201-202",
+    "type": "Lab",
+    "allocation": "Chemistry",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB4",
+    "floor": "First Floor",
+    "building": "AB4",
+    "room": "203-204",
+    "type": "Lab",
+    "allocation": "Chemistry",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB4",
+    "floor": "First Floor",
+    "building": "AB4",
+    "room": "205-206",
+    "type": "Lab",
+    "allocation": "Chemistry",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB4",
+    "floor": "First Floor",
+    "building": "AB4",
+    "room": "209",
+    "type": "Lab",
+    "allocation": "Chemistry",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB4",
+    "floor": "First Floor",
+    "building": "AB4",
+    "room": "210",
+    "type": "Lab",
+    "allocation": "Chemistry",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB4",
+    "floor": "First Floor",
+    "building": "AB4",
+    "room": "211",
+    "type": "Lab",
+    "allocation": "Chemistry",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB4",
+    "floor": "First Floor",
+    "building": "AB4",
+    "room": "213",
+    "type": "Lab",
+    "allocation": "Chemistry",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB4",
+    "floor": "First Floor",
+    "building": "AB4",
+    "room": "214-215",
+    "type": "Lab",
+    "allocation": "Chemistry",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB4",
+    "floor": "First Floor",
+    "building": "AB4",
+    "room": "216-217",
+    "type": "Lab",
+    "allocation": "Chemistry",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB4",
+    "floor": "Ground Floor",
+    "building": "AB4",
+    "room": "101",
+    "type": "Lab",
+    "allocation": "Mech Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB4",
+    "floor": "Ground Floor",
+    "building": "AB4",
+    "room": "102",
+    "type": "Lab",
+    "allocation": "Mech Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB4",
+    "floor": "Ground Floor",
+    "building": "AB4",
+    "room": "105",
+    "type": "Lab",
+    "allocation": "Mech Engg",
+    "intended_allocation": "(Currently being occupied by HSS - Alok K)"
+  },
+  {
+    "sheet": "AB4",
+    "floor": "Ground Floor",
+    "building": "AB4",
+    "room": "106",
+    "type": "Lab",
+    "allocation": "Mech Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB4",
+    "floor": "Ground Floor",
+    "building": "AB4",
+    "room": "107",
+    "type": "Lab",
+    "allocation": "Mech Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB4",
+    "floor": "Ground Floor",
+    "building": "AB4",
+    "room": "108A",
+    "type": "Lab",
+    "allocation": "Mech Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB4",
+    "floor": "Ground Floor",
+    "building": "AB4",
+    "room": "108B",
+    "type": "Lab",
+    "allocation": "Fire Lab/Ctr for Safety Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB4",
+    "floor": "Ground Floor",
+    "building": "AB4",
+    "room": "109",
+    "type": "Lab",
+    "allocation": "Mech Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB4",
+    "floor": "Ground Floor",
+    "building": "AB4",
+    "room": "111",
+    "type": "Lab",
+    "allocation": "Mech Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB4",
+    "floor": "Ground Floor",
+    "building": "AB4",
+    "room": "112",
+    "type": "Lab",
+    "allocation": "Conference room",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB4",
+    "floor": "Second Floor",
+    "building": "AB4",
+    "room": "301",
+    "type": "Office",
+    "allocation": "Mech Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB4",
+    "floor": "Second Floor",
+    "building": "AB4",
+    "room": "302-303",
+    "type": "Student seating",
+    "allocation": "Mech Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB4",
+    "floor": "Second Floor",
+    "building": "AB4",
+    "room": "304",
+    "type": "Office",
+    "allocation": "Mech Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB4",
+    "floor": "Second Floor",
+    "building": "AB4",
+    "room": "305",
+    "type": "Office",
+    "allocation": "Mech Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB4",
+    "floor": "Second Floor",
+    "building": "AB4",
+    "room": "306-307",
+    "type": "Student seating",
+    "allocation": "Mech Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB4",
+    "floor": "Second Floor",
+    "building": "AB4",
+    "room": "308",
+    "type": "Office",
+    "allocation": "Mech Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB4",
+    "floor": "Second Floor",
+    "building": "AB4",
+    "room": "309",
+    "type": "Office",
+    "allocation": "Mech Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB4",
+    "floor": "Second Floor",
+    "building": "AB4",
+    "room": "310-311",
+    "type": "Student seating",
+    "allocation": "Mech Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB4",
+    "floor": "Second Floor",
+    "building": "AB4",
+    "room": "312",
+    "type": "Office",
+    "allocation": "Mech Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB4",
+    "floor": "Second Floor",
+    "building": "AB4",
+    "room": "313",
+    "type": "Office",
+    "allocation": "Mech Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB4",
+    "floor": "Second Floor",
+    "building": "AB4",
+    "room": "314",
+    "type": "Student seating",
+    "allocation": "Mech Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB4",
+    "floor": "Second Floor",
+    "building": "AB4",
+    "room": "314A",
+    "type": "Office",
+    "allocation": "Mech Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB4",
+    "floor": "Second Floor",
+    "building": "AB4",
+    "room": "315",
+    "type": "Student seating",
+    "allocation": "Mech Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB4",
+    "floor": "Second Floor",
+    "building": "AB4",
+    "room": "315A",
+    "type": "Utility",
+    "allocation": "ELV Room",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB4",
+    "floor": "Second Floor",
+    "building": "AB4",
+    "room": "316",
+    "type": "Office",
+    "allocation": "Mech Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB4",
+    "floor": "Second Floor",
+    "building": "AB4",
+    "room": "317",
+    "type": "Office",
+    "allocation": "Mech Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB4",
+    "floor": "Second Floor",
+    "building": "AB4",
+    "room": "318-319",
+    "type": "Student seating",
+    "allocation": "Chemistry",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB4",
+    "floor": "Second Floor",
+    "building": "AB4",
+    "room": "320",
+    "type": "Office",
+    "allocation": "Mech Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB4",
+    "floor": "Second Floor",
+    "building": "AB4",
+    "room": "321",
+    "type": "Office",
+    "allocation": "Mech Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB4",
+    "floor": "Second Floor",
+    "building": "AB4",
+    "room": "322-323",
+    "type": "Student seating",
+    "allocation": "Chemistry",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB4",
+    "floor": "Second Floor",
+    "building": "AB4",
+    "room": "324",
+    "type": "Office",
+    "allocation": "Chemistry",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB4",
+    "floor": "Second Floor",
+    "building": "AB4",
+    "room": "325",
+    "type": "Utility",
+    "allocation": "Pantry",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB4",
+    "floor": "Second Floor",
+    "building": "AB4",
+    "room": "326",
+    "type": "Lab",
+    "allocation": "Civil Engg",
+    "intended_allocation": "(Vimal Mishra's Lab)"
+  },
+  {
+    "sheet": "AB4",
+    "floor": "Second Floor",
+    "building": "AB4",
+    "room": "327",
+    "type": "Office",
+    "allocation": "HSS",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB4",
+    "floor": "Second Floor",
+    "building": "AB4",
+    "room": "328",
+    "type": "Office",
+    "allocation": "Unallocated",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB4",
+    "floor": "Second Floor",
+    "building": "AB4",
+    "room": "329",
+    "type": "Office",
+    "allocation": "Unallocated",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB4",
+    "floor": "Second Floor",
+    "building": "AB4",
+    "room": "330",
+    "type": "Office",
+    "allocation": "Unallocated",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB4",
+    "floor": "Second Floor",
+    "building": "AB4",
+    "room": "331",
+    "type": "Office",
+    "allocation": "Unallocated",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB4",
+    "floor": "Second Floor",
+    "building": "AB4",
+    "room": "332",
+    "type": "Office",
+    "allocation": "Chemistry",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB4",
+    "floor": "Second Floor",
+    "building": "AB4",
+    "room": "332A",
+    "type": "Student seating",
+    "allocation": "Chemistry",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB4",
+    "floor": "Second Floor",
+    "building": "AB4",
+    "room": "333",
+    "type": "Student seating",
+    "allocation": "HSS",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB4",
+    "floor": "Second Floor",
+    "building": "AB4",
+    "room": "333A",
+    "type": "Office",
+    "allocation": "HSS",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB4",
+    "floor": "Second Floor",
+    "building": "AB4",
+    "room": "333B",
+    "type": "Office",
+    "allocation": "HSS",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB4",
+    "floor": "Second Floor",
+    "building": "AB4",
+    "room": "334",
+    "type": "Student seating",
+    "allocation": "HSS",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB4",
+    "floor": "Second Floor",
+    "building": "AB4",
+    "room": "334A",
+    "type": "Office",
+    "allocation": "Cog Science",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB4",
+    "floor": "Second Floor",
+    "building": "AB4",
+    "room": "334B",
+    "type": "Office",
+    "allocation": "HSS",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB4",
+    "floor": "Second Floor",
+    "building": "AB4",
+    "room": "335",
+    "type": "Student seating",
+    "allocation": "Chemistry",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB4",
+    "floor": "Second Floor",
+    "building": "AB4",
+    "room": "335A",
+    "type": "Office",
+    "allocation": "Chemistry",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB4",
+    "floor": "Third Floor",
+    "building": "AB4",
+    "room": "401",
+    "type": "Student seating",
+    "allocation": "Chemistry",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB4",
+    "floor": "Third Floor",
+    "building": "AB4",
+    "room": "401A",
+    "type": "Office",
+    "allocation": "Chemistry",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB4",
+    "floor": "Third Floor",
+    "building": "AB4",
+    "room": "401B",
+    "type": "Office",
+    "allocation": "Chemistry",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB4",
+    "floor": "Third Floor",
+    "building": "AB4",
+    "room": "401C",
+    "type": "Office",
+    "allocation": "Chemistry",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB4",
+    "floor": "Third Floor",
+    "building": "AB4",
+    "room": "402",
+    "type": "Office",
+    "allocation": "Chemistry",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB4",
+    "floor": "Third Floor",
+    "building": "AB4",
+    "room": "403",
+    "type": "Office",
+    "allocation": "Chemistry",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB4",
+    "floor": "Third Floor",
+    "building": "AB4",
+    "room": "404",
+    "type": "Office",
+    "allocation": "Chemistry",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB4",
+    "floor": "Third Floor",
+    "building": "AB4",
+    "room": "405",
+    "type": "Office",
+    "allocation": "Chemistry",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB4",
+    "floor": "Third Floor",
+    "building": "AB4",
+    "room": "406",
+    "type": "Office",
+    "allocation": "Chemistry",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB4",
+    "floor": "Third Floor",
+    "building": "AB4",
+    "room": "407",
+    "type": "Office",
+    "allocation": "Chemistry",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB4",
+    "floor": "Third Floor",
+    "building": "AB4",
+    "room": "408",
+    "type": "Office",
+    "allocation": "Chemistry",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB4",
+    "floor": "Third Floor",
+    "building": "AB4",
+    "room": "409",
+    "type": "Office",
+    "allocation": "Chemistry",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB5",
+    "floor": "First Floor",
+    "building": "AB5",
+    "room": "201",
+    "type": "Lab",
+    "allocation": "Cog Science",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB5",
+    "floor": "First Floor",
+    "building": "AB5",
+    "room": "202",
+    "type": "Classroom",
+    "allocation": "Academic Affairs",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB5",
+    "floor": "First Floor",
+    "building": "AB5",
+    "room": "203",
+    "type": "Classroom",
+    "allocation": "Academic Affairs",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB5",
+    "floor": "First Floor",
+    "building": "AB5",
+    "room": "204",
+    "type": "Lab",
+    "allocation": "Chemical Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB5",
+    "floor": "First Floor",
+    "building": "AB5",
+    "room": "205",
+    "type": "Lab",
+    "allocation": "Chemical Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB5",
+    "floor": "First Floor",
+    "building": "AB5",
+    "room": "206",
+    "type": "Lab",
+    "allocation": "Chemical Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB5",
+    "floor": "First Floor",
+    "building": "AB5",
+    "room": "207",
+    "type": "Lab",
+    "allocation": "Physics",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB5",
+    "floor": "First Floor",
+    "building": "AB5",
+    "room": "208",
+    "type": "Lab",
+    "allocation": "Physics",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB5",
+    "floor": "First Floor",
+    "building": "AB5",
+    "room": "209",
+    "type": "Lab",
+    "allocation": "Chemical Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB5",
+    "floor": "First Floor",
+    "building": "AB5",
+    "room": "210",
+    "type": "Lab",
+    "allocation": "Physics",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB5",
+    "floor": "First Floor",
+    "building": "AB5",
+    "room": "211",
+    "type": "Lab",
+    "allocation": "Physics",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB5",
+    "floor": "First Floor",
+    "building": "AB5",
+    "room": "212",
+    "type": "Lab",
+    "allocation": "Physics",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB5",
+    "floor": "First Floor",
+    "building": "AB5",
+    "room": "213",
+    "type": "Lab",
+    "allocation": "Chemical Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB5",
+    "floor": "First Floor",
+    "building": "AB5",
+    "room": "214",
+    "type": "Lab",
+    "allocation": "Civil Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB5",
+    "floor": "Ground Floor",
+    "building": "AB5",
+    "room": "101",
+    "type": "Student seating",
+    "allocation": null,
+    "intended_allocation": "Data center"
+  },
+  {
+    "sheet": "AB5",
+    "floor": "Ground Floor",
+    "building": "AB5",
+    "room": "102",
+    "type": "Utility",
+    "allocation": "ISTF",
+    "intended_allocation": "Server room"
+  },
+  {
+    "sheet": "AB5",
+    "floor": "Ground Floor",
+    "building": "AB5",
+    "room": "103",
+    "type": "Lab",
+    "allocation": "Civil Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB5",
+    "floor": "Ground Floor",
+    "building": "AB5",
+    "room": "104",
+    "type": "Lab",
+    "allocation": "Civil Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB5",
+    "floor": "Ground Floor",
+    "building": "AB5",
+    "room": "105",
+    "type": "Lab",
+    "allocation": "ISTF",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB5",
+    "floor": "Ground Floor",
+    "building": "AB5",
+    "room": "106",
+    "type": "Lab",
+    "allocation": "ISTF",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB5",
+    "floor": "Ground Floor",
+    "building": "AB5",
+    "room": "107",
+    "type": "Lab",
+    "allocation": "Chemical Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB5",
+    "floor": "Ground Floor",
+    "building": "AB5",
+    "room": "108",
+    "type": "Lab",
+    "allocation": "Param Ananta",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB5",
+    "floor": "Ground Floor",
+    "building": "AB5",
+    "room": "109",
+    "type": "Lab",
+    "allocation": "Param Ananta",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB5",
+    "floor": "Ground Floor",
+    "building": "AB5",
+    "room": "110",
+    "type": "Lab",
+    "allocation": "Civil Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB5",
+    "floor": "Ground Floor",
+    "building": "AB5",
+    "room": "111",
+    "type": "Lab",
+    "allocation": "Chemical Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB5",
+    "floor": "Ground Floor",
+    "building": "AB5",
+    "room": "112",
+    "type": "Lab",
+    "allocation": "Chemical Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB5",
+    "floor": "Second Floor",
+    "building": "AB5",
+    "room": "301",
+    "type": "Office",
+    "allocation": "Chemical Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB5",
+    "floor": "Second Floor",
+    "building": "AB5",
+    "room": "302",
+    "type": "Office",
+    "allocation": "Chemical Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB5",
+    "floor": "Second Floor",
+    "building": "AB5",
+    "room": "303",
+    "type": "Office",
+    "allocation": "Chemical Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB5",
+    "floor": "Second Floor",
+    "building": "AB5",
+    "room": "304",
+    "type": "Office",
+    "allocation": "Unallocated",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB5",
+    "floor": "Second Floor",
+    "building": "AB5",
+    "room": "305",
+    "type": "Office",
+    "allocation": "Unallocated",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB5",
+    "floor": "Second Floor",
+    "building": "AB5",
+    "room": "306",
+    "type": "Office",
+    "allocation": "HSS",
+    "intended_allocation": "(Mubashir)"
+  },
+  {
+    "sheet": "AB5",
+    "floor": "Second Floor",
+    "building": "AB5",
+    "room": "307",
+    "type": "Office",
+    "allocation": "HSS",
+    "intended_allocation": "(CN Pandey)"
+  },
+  {
+    "sheet": "AB5",
+    "floor": "Second Floor",
+    "building": "AB5",
+    "room": "308",
+    "type": "Office",
+    "allocation": "Chemical Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB5",
+    "floor": "Second Floor",
+    "building": "AB5",
+    "room": "309",
+    "type": "Office",
+    "allocation": "Unallocated",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB5",
+    "floor": "Second Floor",
+    "building": "AB5",
+    "room": "310",
+    "type": "Office",
+    "allocation": "Unallocated",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB5",
+    "floor": "Second Floor",
+    "building": "AB5",
+    "room": "311",
+    "type": "Office",
+    "allocation": "HSS",
+    "intended_allocation": "(Mana Shah)"
+  },
+  {
+    "sheet": "AB5",
+    "floor": "Second Floor",
+    "building": "AB5",
+    "room": "312",
+    "type": "Office",
+    "allocation": "Chemical Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB5",
+    "floor": "Second Floor",
+    "building": "AB5",
+    "room": "313",
+    "type": "Office",
+    "allocation": "Faculty Affairs",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB5",
+    "floor": "Second Floor",
+    "building": "AB5",
+    "room": "314",
+    "type": "Student seating",
+    "allocation": "Cog Science",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB5",
+    "floor": "Second Floor",
+    "building": "AB5",
+    "room": "315",
+    "type": "Student seating",
+    "allocation": "Cog Science",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB5",
+    "floor": "Second Floor",
+    "building": "AB5",
+    "room": "315A",
+    "type": "Office",
+    "allocation": "Cog Science",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB5",
+    "floor": "Second Floor",
+    "building": "AB5",
+    "room": "315B",
+    "type": "Office",
+    "allocation": "Cog Science",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB5",
+    "floor": "Second Floor",
+    "building": "AB5",
+    "room": "316",
+    "type": "Student seating",
+    "allocation": "Cog Science",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB5",
+    "floor": "Second Floor",
+    "building": "AB5",
+    "room": "316A",
+    "type": "Office",
+    "allocation": "Cog Science",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB5",
+    "floor": "Second Floor",
+    "building": "AB5",
+    "room": "316B",
+    "type": "Office",
+    "allocation": "Cog Science",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB5",
+    "floor": "Second Floor",
+    "building": "AB5",
+    "room": "317",
+    "type": "Student seating",
+    "allocation": "Cog Science",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB5",
+    "floor": "Second Floor",
+    "building": "AB5",
+    "room": "317A",
+    "type": "Office",
+    "allocation": "Cog Science",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB5",
+    "floor": "Second Floor",
+    "building": "AB5",
+    "room": "318",
+    "type": "Office",
+    "allocation": "Faculty Affairs",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB5",
+    "floor": "Second Floor",
+    "building": "AB5",
+    "room": "319-320",
+    "type": "Student seating",
+    "allocation": "Chemical Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB5",
+    "floor": "Second Floor",
+    "building": "AB5",
+    "room": "321",
+    "type": "Office",
+    "allocation": "Chemical Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB5",
+    "floor": "Second Floor",
+    "building": "AB5",
+    "room": "322",
+    "type": "Office",
+    "allocation": "Chemical Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB5",
+    "floor": "Second Floor",
+    "building": "AB5",
+    "room": "323-324",
+    "type": "Student seating",
+    "allocation": "Chemical Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB5",
+    "floor": "Second Floor",
+    "building": "AB5",
+    "room": "325",
+    "type": "Office",
+    "allocation": "Chemical Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB5",
+    "floor": "Second Floor",
+    "building": "AB5",
+    "room": "326",
+    "type": "Office",
+    "allocation": "Physics",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB5",
+    "floor": "Second Floor",
+    "building": "AB5",
+    "room": "327-328",
+    "type": "Student seating",
+    "allocation": "Civil Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB5",
+    "floor": "Second Floor",
+    "building": "AB5",
+    "room": "329",
+    "type": "Office",
+    "allocation": "Physics",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB5",
+    "floor": "Second Floor",
+    "building": "AB5",
+    "room": "330",
+    "type": "Office",
+    "allocation": "Physics",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB5",
+    "floor": "Second Floor",
+    "building": "AB5",
+    "room": "331-332",
+    "type": "Student seating",
+    "allocation": "Civil Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB5",
+    "floor": "Second Floor",
+    "building": "AB5",
+    "room": "333",
+    "type": "Office",
+    "allocation": "Civil Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB5",
+    "floor": "Second Floor",
+    "building": "AB5",
+    "room": "334",
+    "type": "Office",
+    "allocation": "Civil Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB5",
+    "floor": "Second Floor",
+    "building": "AB5",
+    "room": "335",
+    "type": "Office",
+    "allocation": "Civil Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB5",
+    "floor": "Second Floor",
+    "building": "AB5",
+    "room": "335A",
+    "type": "Office",
+    "allocation": "Civil Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB5",
+    "floor": "Second Floor",
+    "building": "AB5",
+    "room": "336-337",
+    "type": "Student seating",
+    "allocation": "Civil Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB5",
+    "floor": "Second Floor",
+    "building": "AB5",
+    "room": "336A",
+    "type": "Office",
+    "allocation": "Civil Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB5",
+    "floor": "Second Floor",
+    "building": "AB5",
+    "room": "336B",
+    "type": "Office",
+    "allocation": "Civil Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB5",
+    "floor": "Second Floor",
+    "building": "AB5",
+    "room": "338",
+    "type": "Office",
+    "allocation": "HSS",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB5",
+    "floor": "Second Floor",
+    "building": "AB5",
+    "room": "339",
+    "type": "Office",
+    "allocation": "Maths",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB5",
+    "floor": "Second Floor",
+    "building": "AB5",
+    "room": "339A",
+    "type": "Office",
+    "allocation": "Maths",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB5",
+    "floor": "Second Floor",
+    "building": "AB5",
+    "room": "340",
+    "type": "Office",
+    "allocation": "Maths",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB5",
+    "floor": "Second Floor",
+    "building": "AB5",
+    "room": "341",
+    "type": "Office",
+    "allocation": "Maths",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB5",
+    "floor": "Second Floor",
+    "building": "AB5",
+    "room": "342-343",
+    "type": "Student seating",
+    "allocation": "Maths",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB5",
+    "floor": "Second Floor",
+    "building": "AB5",
+    "room": "344",
+    "type": "Office",
+    "allocation": "Maths",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB5",
+    "floor": "Second Floor",
+    "building": "AB5",
+    "room": "345",
+    "type": "Office",
+    "allocation": "Maths",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB5",
+    "floor": "Second Floor",
+    "building": "AB5",
+    "room": "346-347",
+    "type": "Student seating",
+    "allocation": "Maths",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB5",
+    "floor": "Second Floor",
+    "building": "AB5",
+    "room": "348",
+    "type": "Office",
+    "allocation": "Maths",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB5",
+    "floor": "Second Floor",
+    "building": "AB5",
+    "room": "349",
+    "type": "Office",
+    "allocation": "Physics",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB5",
+    "floor": "Second Floor",
+    "building": "AB5",
+    "room": "350-351",
+    "type": "Student seating",
+    "allocation": "Physics",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB5",
+    "floor": "Second Floor",
+    "building": "AB5",
+    "room": "352",
+    "type": "Office",
+    "allocation": "Physics",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB5",
+    "floor": "Second Floor",
+    "building": "AB5",
+    "room": "353",
+    "type": "Office",
+    "allocation": "Unallocated",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB5",
+    "floor": "Second Floor",
+    "building": "AB5",
+    "room": "354-355",
+    "type": "Student seating",
+    "allocation": "Physics",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB5",
+    "floor": "Second Floor",
+    "building": "AB5",
+    "room": "356",
+    "type": "Office",
+    "allocation": "Physics",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB5",
+    "floor": "Second Floor",
+    "building": "AB5",
+    "room": "357",
+    "type": "Office",
+    "allocation": "Physics",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB5",
+    "floor": "Second Floor",
+    "building": "AB5",
+    "room": "358-359",
+    "type": "Student seating",
+    "allocation": "Physics",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB5",
+    "floor": "Second Floor",
+    "building": "AB5",
+    "room": "360",
+    "type": "Office",
+    "allocation": "Physics",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB5",
+    "floor": "Second Floor",
+    "building": "AB5",
+    "room": "361",
+    "type": "Meeting room",
+    "allocation": "CDS",
+    "intended_allocation": "(Used for interviews)"
+  },
+  {
+    "sheet": "AB5",
+    "floor": "Second Floor",
+    "building": "AB5",
+    "room": "362",
+    "type": "Meeting room",
+    "allocation": "CDS",
+    "intended_allocation": "(Used for interviews)"
+  },
+  {
+    "sheet": "AB5",
+    "floor": "Second Floor",
+    "building": "AB5",
+    "room": "363",
+    "type": "Meeting room",
+    "allocation": "CDS",
+    "intended_allocation": "(Used for interviews)"
+  },
+  {
+    "sheet": "AB5",
+    "floor": "Second Floor",
+    "building": "AB5",
+    "room": "364",
+    "type": "Meeting room",
+    "allocation": "CDS",
+    "intended_allocation": "(Used for interviews)"
+  },
+  {
+    "sheet": "AB5",
+    "floor": "Third Floor",
+    "building": null,
+    "room": "401",
+    "type": "Utility",
+    "allocation": "ELV Room",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB5",
+    "floor": "Third Floor",
+    "building": null,
+    "room": "402",
+    "type": "Office",
+    "allocation": "Chemical Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB5",
+    "floor": "Third Floor",
+    "building": null,
+    "room": "403",
+    "type": "Office",
+    "allocation": "Chemical Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB5",
+    "floor": "Third Floor",
+    "building": null,
+    "room": "404",
+    "type": "Student seating",
+    "allocation": "Chemical Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB5",
+    "floor": "Third Floor",
+    "building": null,
+    "room": "404A",
+    "type": "Office",
+    "allocation": "Chemical Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB5",
+    "floor": "Third Floor",
+    "building": null,
+    "room": "404B",
+    "type": "Office",
+    "allocation": "Chemical Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB5",
+    "floor": "Third Floor",
+    "building": null,
+    "room": "404C",
+    "type": "Office",
+    "allocation": "HSS",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB5",
+    "floor": "Third Floor",
+    "building": null,
+    "room": "404D",
+    "type": "Office",
+    "allocation": "HSS",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB5",
+    "floor": "Third Floor",
+    "building": null,
+    "room": "405",
+    "type": "Utility",
+    "allocation": "Unallocated",
+    "intended_allocation": "(Used for janitor services)"
+  },
+  {
+    "sheet": "AB5",
+    "floor": "Third Floor",
+    "building": null,
+    "room": "406",
+    "type": "Office",
+    "allocation": "Chemical Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB6",
+    "floor": "First Floor",
+    "building": "AB6",
+    "room": "201",
+    "type": "Classroom",
+    "allocation": "Academic Affairs",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB6",
+    "floor": "First Floor",
+    "building": "AB6",
+    "room": "202",
+    "type": "Classroom",
+    "allocation": "Academic Affairs",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB6",
+    "floor": "First Floor",
+    "building": "AB6",
+    "room": "203",
+    "type": "Lab",
+    "allocation": "Bio Sci & Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB6",
+    "floor": "First Floor",
+    "building": "AB6",
+    "room": "204",
+    "type": "Lab",
+    "allocation": "Cog Science",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB6",
+    "floor": "First Floor",
+    "building": "AB6",
+    "room": "205",
+    "type": "Lab",
+    "allocation": "Bio Sci & Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB6",
+    "floor": "First Floor",
+    "building": "AB6",
+    "room": "206",
+    "type": "Lab",
+    "allocation": "Bio Sci & Engg + Phsyics",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB6",
+    "floor": "First Floor",
+    "building": "AB6",
+    "room": "207",
+    "type": "Lab",
+    "allocation": "Bio Sci & Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB6",
+    "floor": "First Floor",
+    "building": "AB6",
+    "room": "208",
+    "type": "Lab",
+    "allocation": "Bio Sci & Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB6",
+    "floor": "First Floor",
+    "building": "AB6",
+    "room": "209",
+    "type": "Lab",
+    "allocation": "Bio Sci & Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB6",
+    "floor": "First Floor",
+    "building": "AB6",
+    "room": "210",
+    "type": "Lab",
+    "allocation": "Bio Sci & Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB6",
+    "floor": "First Floor",
+    "building": "AB6",
+    "room": "211",
+    "type": "Lab",
+    "allocation": "Fire Lab",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB6",
+    "floor": "First Floor",
+    "building": "AB6",
+    "room": "212",
+    "type": "Lab",
+    "allocation": "Chemistry",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB6",
+    "floor": "First Floor",
+    "building": "AB6",
+    "room": "213",
+    "type": "Lab",
+    "allocation": "Bio Sci & Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB6",
+    "floor": "Ground Floor",
+    "building": "AB6",
+    "room": "101",
+    "type": "Lab",
+    "allocation": "General Administration",
+    "intended_allocation": "(Faculty Lounge)"
+  },
+  {
+    "sheet": "AB6",
+    "floor": "Ground Floor",
+    "building": "AB6",
+    "room": "102",
+    "type": "Lab",
+    "allocation": "Civil Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB6",
+    "floor": "Ground Floor",
+    "building": "AB6",
+    "room": "103",
+    "type": "Lab",
+    "allocation": "Civil Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB6",
+    "floor": "Ground Floor",
+    "building": "AB6",
+    "room": "104",
+    "type": "Lab",
+    "allocation": "Electrical Engg",
+    "intended_allocation": "(Teaching Lab)"
+  },
+  {
+    "sheet": "AB6",
+    "floor": "Ground Floor",
+    "building": "AB6",
+    "room": "105",
+    "type": "Lab",
+    "allocation": "Chemistry + Mech Engg",
+    "intended_allocation": "(Fuel Cell Lab)"
+  },
+  {
+    "sheet": "AB6",
+    "floor": "Ground Floor",
+    "building": "AB6",
+    "room": "106-107",
+    "type": "Lab",
+    "allocation": "Electrical Engg",
+    "intended_allocation": "(Teaching Lab)"
+  },
+  {
+    "sheet": "AB6",
+    "floor": "Ground Floor",
+    "building": "AB6",
+    "room": "108",
+    "type": "Lab",
+    "allocation": "Chemistry",
+    "intended_allocation": "(Teaching Lab)"
+  },
+  {
+    "sheet": "AB6",
+    "floor": "Ground Floor",
+    "building": "AB6",
+    "room": "109",
+    "type": "Lab",
+    "allocation": "Physics",
+    "intended_allocation": "(Teaching Lab)"
+  },
+  {
+    "sheet": "AB6",
+    "floor": "Ground Floor",
+    "building": "AB6",
+    "room": "110",
+    "type": "Lab",
+    "allocation": "Unallocated",
+    "intended_allocation": "(Old TEM lab)"
+  },
+  {
+    "sheet": "AB6",
+    "floor": "Ground Floor",
+    "building": "AB6",
+    "room": "111",
+    "type": "Lab",
+    "allocation": "Maritime Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB6",
+    "floor": "Second Floor",
+    "building": "AB6",
+    "room": "301",
+    "type": "Office",
+    "allocation": "Bio Sci & Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB6",
+    "floor": "Second Floor",
+    "building": "AB6",
+    "room": "302",
+    "type": "Office",
+    "allocation": "Bio Sci & Engg",
+    "intended_allocation": "(Shekhar Mande)"
+  },
+  {
+    "sheet": "AB6",
+    "floor": "Second Floor",
+    "building": "AB6",
+    "room": "303",
+    "type": "Office",
+    "allocation": "Mech Engg",
+    "intended_allocation": "(Occupied by Somnath Mitra)"
+  },
+  {
+    "sheet": "AB6",
+    "floor": "Second Floor",
+    "building": "AB6",
+    "room": "304",
+    "type": "Office",
+    "allocation": "Unallocated",
+    "intended_allocation": "(Soumya Harish)"
+  },
+  {
+    "sheet": "AB6",
+    "floor": "Second Floor",
+    "building": "AB6",
+    "room": "305",
+    "type": "Office",
+    "allocation": "Unallocated",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB6",
+    "floor": "Second Floor",
+    "building": "AB6",
+    "room": "306",
+    "type": "Office",
+    "allocation": "Unallocated",
+    "intended_allocation": "(BV Puvar)"
+  },
+  {
+    "sheet": "AB6",
+    "floor": "Second Floor",
+    "building": "AB6",
+    "room": "307",
+    "type": "Office",
+    "allocation": "Physics",
+    "intended_allocation": "(R Puri)"
+  },
+  {
+    "sheet": "AB6",
+    "floor": "Second Floor",
+    "building": "AB6",
+    "room": "308",
+    "type": "Office",
+    "allocation": "Chemical Engg",
+    "intended_allocation": "(Occupied by SR Gandhi)"
+  },
+  {
+    "sheet": "AB6",
+    "floor": "Second Floor",
+    "building": "AB6",
+    "room": "309",
+    "type": "Office",
+    "allocation": "Maths",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB6",
+    "floor": "Second Floor",
+    "building": "AB6",
+    "room": "310",
+    "type": "Office",
+    "allocation": "CDS",
+    "intended_allocation": "(Interview room)"
+  },
+  {
+    "sheet": "AB6",
+    "floor": "Second Floor",
+    "building": "AB6",
+    "room": "311",
+    "type": "Office",
+    "allocation": "CDS",
+    "intended_allocation": "(Interview room)"
+  },
+  {
+    "sheet": "AB6",
+    "floor": "Second Floor",
+    "building": "AB6",
+    "room": "312",
+    "type": "Office",
+    "allocation": "Physics",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB6",
+    "floor": "Second Floor",
+    "building": "AB6",
+    "room": "313",
+    "type": "Student seating",
+    "allocation": "Physics",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB6",
+    "floor": "Second Floor",
+    "building": "AB6",
+    "room": "314",
+    "type": "Student seating",
+    "allocation": "Physics",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB6",
+    "floor": "Second Floor",
+    "building": "AB6",
+    "room": "314A",
+    "type": "Office",
+    "allocation": "Physics",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB6",
+    "floor": "Second Floor",
+    "building": "AB6",
+    "room": "314B",
+    "type": "Office",
+    "allocation": "Physics",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB6",
+    "floor": "Second Floor",
+    "building": "AB6",
+    "room": "315",
+    "type": "Student seating",
+    "allocation": "Physics",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB6",
+    "floor": "Second Floor",
+    "building": "AB6",
+    "room": "315A",
+    "type": "Office",
+    "allocation": "Physics",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB6",
+    "floor": "Second Floor",
+    "building": "AB6",
+    "room": "315B",
+    "type": "Office",
+    "allocation": "Physics",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB6",
+    "floor": "Second Floor",
+    "building": "AB6",
+    "room": "316",
+    "type": "Student seating",
+    "allocation": "Physics",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB6",
+    "floor": "Second Floor",
+    "building": "AB6",
+    "room": "316A",
+    "type": "Office",
+    "allocation": "Physics",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB6",
+    "floor": "Second Floor",
+    "building": "AB6",
+    "room": "317",
+    "type": "Office",
+    "allocation": "Faculty Affairs",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB6",
+    "floor": "Second Floor",
+    "building": "AB6",
+    "room": "318-319",
+    "type": "Student seating",
+    "allocation": "Unallocated",
+    "intended_allocation": "(Old NEEV space)"
+  },
+  {
+    "sheet": "AB6",
+    "floor": "Second Floor",
+    "building": "AB6",
+    "room": "320",
+    "type": "Office",
+    "allocation": "Bio Sci & Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB6",
+    "floor": "Second Floor",
+    "building": "AB6",
+    "room": "321",
+    "type": "Office",
+    "allocation": "Bio Sci & Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB6",
+    "floor": "Second Floor",
+    "building": "AB6",
+    "room": "322-323",
+    "type": "Office",
+    "allocation": "Bio Sci & Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB6",
+    "floor": "Second Floor",
+    "building": "AB6",
+    "room": "324",
+    "type": "Office",
+    "allocation": "Bio Sci & Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB6",
+    "floor": "Second Floor",
+    "building": "AB6",
+    "room": "325",
+    "type": "Office",
+    "allocation": "Bio Sci & Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB6",
+    "floor": "Second Floor",
+    "building": "AB6",
+    "room": "326-327",
+    "type": "Student seating",
+    "allocation": "Bio Sci & Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB6",
+    "floor": "Second Floor",
+    "building": "AB6",
+    "room": "327A",
+    "type": "Office",
+    "allocation": "Bio Sci & Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB6",
+    "floor": "Second Floor",
+    "building": "AB6",
+    "room": "328",
+    "type": "Utility",
+    "allocation": "UPS Room",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB6",
+    "floor": "Second Floor",
+    "building": "AB6",
+    "room": "329",
+    "type": "Student seating",
+    "allocation": "Civil Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB6",
+    "floor": "Second Floor",
+    "building": "AB6",
+    "room": "329A",
+    "type": "Office",
+    "allocation": "Civil Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB6",
+    "floor": "Second Floor",
+    "building": "AB6",
+    "room": "330",
+    "type": "Office",
+    "allocation": "Civil Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB6",
+    "floor": "Second Floor",
+    "building": "AB6",
+    "room": "331",
+    "type": "Office",
+    "allocation": "Civil Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB6",
+    "floor": "Second Floor",
+    "building": "AB6",
+    "room": "332-333",
+    "type": "Student seating",
+    "allocation": "Civil Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB6",
+    "floor": "Second Floor",
+    "building": "AB6",
+    "room": "334",
+    "type": "Office",
+    "allocation": "Civil Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB6",
+    "floor": "Second Floor",
+    "building": "AB6",
+    "room": "335",
+    "type": "Office",
+    "allocation": "Chemistry",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB6",
+    "floor": "Second Floor",
+    "building": "AB6",
+    "room": "336",
+    "type": "Student seating",
+    "allocation": "Civil Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB6",
+    "floor": "Second Floor",
+    "building": "AB6",
+    "room": "336A",
+    "type": "Office",
+    "allocation": "Civil Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB6",
+    "floor": "Second Floor",
+    "building": "AB6",
+    "room": "337",
+    "type": "Office",
+    "allocation": "HSS",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB6",
+    "floor": "Second Floor",
+    "building": "AB6",
+    "room": "338",
+    "type": "Office",
+    "allocation": "HSS",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB6",
+    "floor": "Second Floor",
+    "building": "AB6",
+    "room": "339",
+    "type": "Student seating",
+    "allocation": "HSS",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB6",
+    "floor": "Second Floor",
+    "building": "AB6",
+    "room": "339A",
+    "type": "Office",
+    "allocation": "HSS",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB6",
+    "floor": "Second Floor",
+    "building": "AB6",
+    "room": "340",
+    "type": "Office",
+    "allocation": "Maths",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB6",
+    "floor": "Second Floor",
+    "building": "AB6",
+    "room": "341",
+    "type": "Office",
+    "allocation": "Maths",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB6",
+    "floor": "Second Floor",
+    "building": "AB6",
+    "room": "342-343",
+    "type": "Student seating",
+    "allocation": "Maths",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB6",
+    "floor": "Second Floor",
+    "building": "AB6",
+    "room": "344",
+    "type": "Office",
+    "allocation": "Maths",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB6",
+    "floor": "Second Floor",
+    "building": "AB6",
+    "room": "345",
+    "type": "Office",
+    "allocation": "Maths",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB6",
+    "floor": "Second Floor",
+    "building": "AB6",
+    "room": "346",
+    "type": "Student seating",
+    "allocation": "HSS",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB6",
+    "floor": "Second Floor",
+    "building": "AB6",
+    "room": "347",
+    "type": "Office",
+    "allocation": "Maths",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB6",
+    "floor": "Second Floor",
+    "building": "AB6",
+    "room": "348",
+    "type": "Office",
+    "allocation": "Cog Science",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB6",
+    "floor": "Second Floor",
+    "building": "AB6",
+    "room": "349-350",
+    "type": "Student seating",
+    "allocation": "HSS",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB6",
+    "floor": "Second Floor",
+    "building": "AB6",
+    "room": "351",
+    "type": "Office",
+    "allocation": "HSS",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB6",
+    "floor": "Second Floor",
+    "building": "AB6",
+    "room": "352",
+    "type": "Office",
+    "allocation": "Maths",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB6",
+    "floor": "Second Floor",
+    "building": "AB6",
+    "room": "353-354",
+    "type": "Student seating",
+    "allocation": "Cog Science",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB6",
+    "floor": "Second Floor",
+    "building": "AB6",
+    "room": "355",
+    "type": "Office",
+    "allocation": "Maths",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB6",
+    "floor": "Second Floor",
+    "building": "AB6",
+    "room": "356",
+    "type": "Office",
+    "allocation": "Maths",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB6",
+    "floor": "Second Floor",
+    "building": "AB6",
+    "room": "357-358",
+    "type": "Student seating",
+    "allocation": "Bio Sci & Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB6",
+    "floor": "Second Floor",
+    "building": "AB6",
+    "room": "359",
+    "type": "Office",
+    "allocation": "Maths",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB6",
+    "floor": "Third Floor",
+    "building": "AB6",
+    "room": "401",
+    "type": "Utility",
+    "allocation": "UPS Room",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB6",
+    "floor": "Third Floor",
+    "building": "AB6",
+    "room": "402",
+    "type": "Office",
+    "allocation": "Civil Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB6",
+    "floor": "Third Floor",
+    "building": "AB6",
+    "room": "403",
+    "type": "Office",
+    "allocation": "Civil Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB6",
+    "floor": "Third Floor",
+    "building": "AB6",
+    "room": "404",
+    "type": "Office",
+    "allocation": "Civil Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB6",
+    "floor": "Third Floor",
+    "building": "AB6",
+    "room": "405",
+    "type": "Office",
+    "allocation": "Civil Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB6",
+    "floor": "Third Floor",
+    "building": "AB6",
+    "room": "406",
+    "type": "Office",
+    "allocation": "Civil Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB6",
+    "floor": "Third Floor",
+    "building": "AB6",
+    "room": "407",
+    "type": "Student seating",
+    "allocation": "Bio Sci & Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB6",
+    "floor": "Third Floor",
+    "building": "AB6",
+    "room": "407A",
+    "type": "Office",
+    "allocation": "Bio Sci & Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB6",
+    "floor": "Third Floor",
+    "building": "AB6",
+    "room": "407B",
+    "type": "Office",
+    "allocation": "Bio Sci & Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB6",
+    "floor": "Third Floor",
+    "building": "AB6",
+    "room": "407C",
+    "type": "Office",
+    "allocation": "Bio Sci & Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB6",
+    "floor": "Third Floor",
+    "building": "AB6",
+    "room": "407D",
+    "type": "Office",
+    "allocation": "Bio Sci & Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB6",
+    "floor": "Third Floor",
+    "building": "AB6",
+    "room": "408",
+    "type": "Office",
+    "allocation": "Unallocated",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB6",
+    "floor": "Third Floor",
+    "building": "AB6",
+    "room": "409",
+    "type": "Office",
+    "allocation": "Bio Sci & Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB7",
+    "floor": "All Floors",
+    "building": "AB7",
+    "room": "All Classrooms",
+    "type": "Classroom",
+    "allocation": "Academic Affairs",
+    "intended_allocation": "All classrooms allocated to Academic Affairs"
+  },
+  {
+    "sheet": "AB8",
+    "floor": "All Floors",
+    "building": "AB8",
+    "room": "Lal Minar",
+    "type": "Building",
+    "allocation": "Lal Minar",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB9",
+    "floor": "First Floor",
+    "building": "AB9",
+    "room": "First Floor",
+    "type": "Area",
+    "allocation": "Consultants",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB9",
+    "floor": "Ground Floor",
+    "building": "AB9",
+    "room": "Ground Floor",
+    "type": "Area",
+    "allocation": "Store",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB9",
+    "floor": "Second Floor",
+    "building": "AB9",
+    "room": "Second Floor",
+    "type": "Area",
+    "allocation": "IWD",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB10",
+    "floor": "First Floor",
+    "building": "AB10",
+    "room": "201.0",
+    "type": "Classroom",
+    "allocation": "Academic Affairs",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB10",
+    "floor": "First Floor",
+    "building": "AB10",
+    "room": "202.0",
+    "type": "Classroom",
+    "allocation": "Academic Affairs",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB10",
+    "floor": "First Floor",
+    "building": "AB10",
+    "room": "203.0",
+    "type": "Computer Lab",
+    "allocation": "Academic Affairs",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB10",
+    "floor": "First Floor",
+    "building": "AB10",
+    "room": "204.0",
+    "type": "Computer Lab",
+    "allocation": "Academic Affairs",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB10",
+    "floor": "First Floor",
+    "building": "AB10",
+    "room": "205.0",
+    "type": "Computer Lab",
+    "allocation": "Academic Affairs",
+    "intended_allocation": "(Partly used for classroom services)"
+  },
+  {
+    "sheet": "AB10",
+    "floor": "Ground Floor",
+    "building": "AB10",
+    "room": "101.0",
+    "type": "Classroom",
+    "allocation": "Academic Affairs",
+    "intended_allocation": "(Used by Swayam Prabha)"
+  },
+  {
+    "sheet": "AB10",
+    "floor": "Ground Floor",
+    "building": "AB10",
+    "room": "102.0",
+    "type": "Classroom",
+    "allocation": "Academic Affairs",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB10",
+    "floor": "Ground Floor",
+    "building": "AB10",
+    "room": "103.0",
+    "type": "Classroom",
+    "allocation": "Academic Affairs",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB10",
+    "floor": "Ground Floor",
+    "building": "AB10",
+    "room": "104.0",
+    "type": "Computer Lab",
+    "allocation": "Academic Affairs",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB10",
+    "floor": "Ground Floor",
+    "building": "AB10",
+    "room": "105.0",
+    "type": "Computer Lab",
+    "allocation": "Academic Affairs",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB10",
+    "floor": "Second Floor",
+    "building": "AB10",
+    "room": "301.0",
+    "type": "Lab",
+    "allocation": "Materials Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB10",
+    "floor": "Second Floor",
+    "building": "AB10",
+    "room": "302.0",
+    "type": "Lab",
+    "allocation": "Materials Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB10",
+    "floor": "Second Floor",
+    "building": "AB10",
+    "room": "303.0",
+    "type": "Lab",
+    "allocation": "Materials Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB10",
+    "floor": "Second Floor",
+    "building": "AB10",
+    "room": "304.0",
+    "type": "Lab",
+    "allocation": "Materials Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB10",
+    "floor": "Second Floor",
+    "building": "AB10",
+    "room": "305.0",
+    "type": "Lab",
+    "allocation": "Materials Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB11",
+    "floor": "First Floor",
+    "building": "AB11",
+    "room": "201",
+    "type": "Lab",
+    "allocation": "Tinkerer's Lab",
+    "intended_allocation": "(To be allocated to Design)"
+  },
+  {
+    "sheet": "AB11",
+    "floor": "First Floor",
+    "building": "AB11",
+    "room": "202",
+    "type": "Lab",
+    "allocation": "Tinkerer's Lab",
+    "intended_allocation": "(To be allocated to Design)"
+  },
+  {
+    "sheet": "AB11",
+    "floor": "First Floor",
+    "building": "AB11",
+    "room": "203",
+    "type": "Lab",
+    "allocation": "Tinkerer's Lab",
+    "intended_allocation": "(To be allocated to Design)"
+  },
+  {
+    "sheet": "AB11",
+    "floor": "First Floor",
+    "building": "AB11",
+    "room": "204",
+    "type": "Classroom",
+    "allocation": "Academic Affairs",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB11",
+    "floor": "First Floor",
+    "building": "AB11",
+    "room": "205",
+    "type": "Classroom",
+    "allocation": "Academic Affairs",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB11",
+    "floor": "First Floor",
+    "building": "AB11",
+    "room": "207",
+    "type": "Lab",
+    "allocation": "Materials Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB11",
+    "floor": "First Floor",
+    "building": "AB11",
+    "room": "208",
+    "type": "Lab",
+    "allocation": "Materials Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB11",
+    "floor": "First Floor",
+    "building": "AB11",
+    "room": "209",
+    "type": "Lab",
+    "allocation": "Materials Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB11",
+    "floor": "First Floor",
+    "building": "AB11",
+    "room": "210",
+    "type": "Meeting Room",
+    "allocation": "Unallocated",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB11",
+    "floor": "First Floor",
+    "building": "AB11",
+    "room": "211",
+    "type": "Lab",
+    "allocation": "Materials Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB11",
+    "floor": "First Floor",
+    "building": "AB11",
+    "room": "212",
+    "type": "Lab",
+    "allocation": "Materials Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB11",
+    "floor": "First Floor",
+    "building": "AB11",
+    "room": "213",
+    "type": "Lab",
+    "allocation": "Materials Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB11",
+    "floor": "First Floor",
+    "building": "AB11",
+    "room": "214",
+    "type": "Lab",
+    "allocation": "Materials Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB11",
+    "floor": "First Floor",
+    "building": "AB11",
+    "room": "215",
+    "type": "Meeting Room",
+    "allocation": "Unallocated",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB11",
+    "floor": "First Floor",
+    "building": "AB11",
+    "room": "216",
+    "type": "Lab",
+    "allocation": "Tinkerer's Lab",
+    "intended_allocation": "(To be allocated to Design)"
+  },
+  {
+    "sheet": "AB11",
+    "floor": "First Floor",
+    "building": "AB11",
+    "room": "217",
+    "type": "Lab",
+    "allocation": "Tinkerer's Lab",
+    "intended_allocation": "(To be allocated to Design)"
+  },
+  {
+    "sheet": "AB11",
+    "floor": "First Floor",
+    "building": "AB11",
+    "room": "218",
+    "type": "Lab",
+    "allocation": "Tinkerer's Lab",
+    "intended_allocation": "(To be allocated to Design)"
+  },
+  {
+    "sheet": "AB11",
+    "floor": "First Floor",
+    "building": "AB11",
+    "room": "219",
+    "type": "Lab",
+    "allocation": "Tinkerer's Lab",
+    "intended_allocation": "(To be allocated to Mech Engg)"
+  },
+  {
+    "sheet": "AB11",
+    "floor": "Ground Floor",
+    "building": "AB11",
+    "room": "101",
+    "type": "Classroom",
+    "allocation": "Academic Affairs",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB11",
+    "floor": "Ground Floor",
+    "building": "AB11",
+    "room": "102",
+    "type": "Classroom",
+    "allocation": "Academic Affairs",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB11",
+    "floor": "Ground Floor",
+    "building": "AB11",
+    "room": "103",
+    "type": "Lab",
+    "allocation": "Materials Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB11",
+    "floor": "Ground Floor",
+    "building": "AB11",
+    "room": "104",
+    "type": "Lab",
+    "allocation": "Materials Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB11",
+    "floor": "Ground Floor",
+    "building": "AB11",
+    "room": "105",
+    "type": "Lab",
+    "allocation": "Materials Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB11",
+    "floor": "Ground Floor",
+    "building": "AB11",
+    "room": "106",
+    "type": "Lab",
+    "allocation": "Materials Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB11",
+    "floor": "Ground Floor",
+    "building": "AB11",
+    "room": "107",
+    "type": "Lab",
+    "allocation": "Materials Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB11",
+    "floor": "Ground Floor",
+    "building": "AB11",
+    "room": "108",
+    "type": "Lab",
+    "allocation": "Materials Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB11",
+    "floor": "Ground Floor",
+    "building": "AB11",
+    "room": "109",
+    "type": "Lab",
+    "allocation": "Materials Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB11",
+    "floor": "Ground Floor",
+    "building": "AB11",
+    "room": "110",
+    "type": "Lab",
+    "allocation": "Makers Bhavan",
+    "intended_allocation": "(To be allocated to Design)"
+  },
+  {
+    "sheet": "AB11",
+    "floor": "Second Floor",
+    "building": "AB11",
+    "room": "301",
+    "type": "Student seating",
+    "allocation": "Mech Engg",
+    "intended_allocation": "(To be allocated to Design)"
+  },
+  {
+    "sheet": "AB11",
+    "floor": "Second Floor",
+    "building": "AB11",
+    "room": "301A",
+    "type": "Office",
+    "allocation": "Mech Engg",
+    "intended_allocation": "(To be allocated to Design)"
+  },
+  {
+    "sheet": "AB11",
+    "floor": "Second Floor",
+    "building": "AB11",
+    "room": "301B",
+    "type": "Office",
+    "allocation": "Mech Engg",
+    "intended_allocation": "(To be allocated to Design)"
+  },
+  {
+    "sheet": "AB11",
+    "floor": "Second Floor",
+    "building": "AB11",
+    "room": "301C",
+    "type": "Office",
+    "allocation": "Mech Engg",
+    "intended_allocation": "(To be allocated to Design)"
+  },
+  {
+    "sheet": "AB11",
+    "floor": "Second Floor",
+    "building": "AB11",
+    "room": "301D",
+    "type": "Office",
+    "allocation": "Mech Engg",
+    "intended_allocation": "(To be allocated to Design)"
+  },
+  {
+    "sheet": "AB11",
+    "floor": "Second Floor",
+    "building": "AB11",
+    "room": "302",
+    "type": "Student seating",
+    "allocation": "Mech Engg",
+    "intended_allocation": "(To be allocated to Design)"
+  },
+  {
+    "sheet": "AB11",
+    "floor": "Second Floor",
+    "building": "AB11",
+    "room": "302A",
+    "type": "Office",
+    "allocation": "Mech Engg",
+    "intended_allocation": "(To be allocated to Design)"
+  },
+  {
+    "sheet": "AB11",
+    "floor": "Second Floor",
+    "building": "AB11",
+    "room": "302B",
+    "type": "Office",
+    "allocation": "Mech Engg",
+    "intended_allocation": "(To be allocated to Design)"
+  },
+  {
+    "sheet": "AB11",
+    "floor": "Second Floor",
+    "building": "AB11",
+    "room": "302C",
+    "type": "Office",
+    "allocation": "Mech Engg",
+    "intended_allocation": "(To be allocated to Design)"
+  },
+  {
+    "sheet": "AB11",
+    "floor": "Second Floor",
+    "building": "AB11",
+    "room": "302D",
+    "type": "Office",
+    "allocation": "Mech Engg",
+    "intended_allocation": "(To be allocated to Design)"
+  },
+  {
+    "sheet": "AB11",
+    "floor": "Second Floor",
+    "building": "AB11",
+    "room": "303",
+    "type": "Meeting Room",
+    "allocation": "Academic Affairs",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB11",
+    "floor": "Second Floor",
+    "building": "AB11",
+    "room": "304",
+    "type": "Meeting Room",
+    "allocation": "Academic Affairs",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB11",
+    "floor": "Second Floor",
+    "building": "AB11",
+    "room": "305",
+    "type": "Student seating",
+    "allocation": "Materials Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB11",
+    "floor": "Second Floor",
+    "building": "AB11",
+    "room": "305A",
+    "type": "Office",
+    "allocation": "Materials Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB11",
+    "floor": "Second Floor",
+    "building": "AB11",
+    "room": "305B",
+    "type": "Office",
+    "allocation": "Materials Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB11",
+    "floor": "Second Floor",
+    "building": "AB11",
+    "room": "305C",
+    "type": "Office",
+    "allocation": "Materials Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB11",
+    "floor": "Second Floor",
+    "building": "AB11",
+    "room": "306",
+    "type": "Student seating",
+    "allocation": "Materials Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB11",
+    "floor": "Second Floor",
+    "building": "AB11",
+    "room": "306A",
+    "type": "Office",
+    "allocation": "Materials Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB11",
+    "floor": "Second Floor",
+    "building": "AB11",
+    "room": "306B",
+    "type": "Office",
+    "allocation": "Materials Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB11",
+    "floor": "Second Floor",
+    "building": "AB11",
+    "room": "306C",
+    "type": "Office",
+    "allocation": "Materials Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB11",
+    "floor": "Second Floor",
+    "building": "AB11",
+    "room": "307",
+    "type": "Meeting Room",
+    "allocation": "Unallocated",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB11",
+    "floor": "Second Floor",
+    "building": "AB11",
+    "room": "308",
+    "type": "Student seating",
+    "allocation": "Materials Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB11",
+    "floor": "Second Floor",
+    "building": "AB11",
+    "room": "308A",
+    "type": "Office",
+    "allocation": "Materials Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB11",
+    "floor": "Second Floor",
+    "building": "AB11",
+    "room": "308B",
+    "type": "Office",
+    "allocation": "Materials Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB11",
+    "floor": "Second Floor",
+    "building": "AB11",
+    "room": "308C ",
+    "type": "Office",
+    "allocation": "Materials Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB11",
+    "floor": "Second Floor",
+    "building": "AB11",
+    "room": "308D",
+    "type": "Office",
+    "allocation": "Materials Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB11",
+    "floor": "Second Floor",
+    "building": "AB11",
+    "room": "309",
+    "type": "Student seating",
+    "allocation": "Materials Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB11",
+    "floor": "Second Floor",
+    "building": "AB11",
+    "room": "309A",
+    "type": "Office",
+    "allocation": "Materials Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB11",
+    "floor": "Second Floor",
+    "building": "AB11",
+    "room": "309B",
+    "type": "Office",
+    "allocation": "Materials Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB11",
+    "floor": "Second Floor",
+    "building": "AB11",
+    "room": "309C ",
+    "type": "Office",
+    "allocation": "Materials Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB11",
+    "floor": "Second Floor",
+    "building": "AB11",
+    "room": "309D",
+    "type": "Office",
+    "allocation": "Materials Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB11",
+    "floor": "Second Floor",
+    "building": "AB11",
+    "room": "310",
+    "type": "Student seating",
+    "allocation": "HSS",
+    "intended_allocation": "(To be allocated to Mech Engg)"
+  },
+  {
+    "sheet": "AB11",
+    "floor": "Second Floor",
+    "building": "AB11",
+    "room": "310A",
+    "type": "Office",
+    "allocation": "HSS",
+    "intended_allocation": "(To be allocated to Mech Engg)"
+  },
+  {
+    "sheet": "AB11",
+    "floor": "Second Floor",
+    "building": "AB11",
+    "room": "310B",
+    "type": "Office",
+    "allocation": "HSS",
+    "intended_allocation": "(To be allocated to Mech Engg)"
+  },
+  {
+    "sheet": "AB11",
+    "floor": "Second Floor",
+    "building": "AB11",
+    "room": "311",
+    "type": "Student seating",
+    "allocation": "HSS",
+    "intended_allocation": "(To be allocated to Mech Engg)"
+  },
+  {
+    "sheet": "AB11",
+    "floor": "Second Floor",
+    "building": "AB11",
+    "room": "311A",
+    "type": "Office",
+    "allocation": "HSS",
+    "intended_allocation": "(To be allocated to Mech Engg)"
+  },
+  {
+    "sheet": "AB11",
+    "floor": "Second Floor",
+    "building": "AB11",
+    "room": "311B",
+    "type": "Office",
+    "allocation": "HSS",
+    "intended_allocation": "(To be allocated to Mech Engg)"
+  },
+  {
+    "sheet": "AB11",
+    "floor": "Second Floor",
+    "building": "AB11",
+    "room": "312-313",
+    "type": "Student seating",
+    "allocation": "Materials Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB11",
+    "floor": "Second Floor",
+    "building": "AB11",
+    "room": "312A",
+    "type": "Office",
+    "allocation": "Materials Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB11",
+    "floor": "Second Floor",
+    "building": "AB11",
+    "room": "312B",
+    "type": "Office",
+    "allocation": "Materials Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB11",
+    "floor": "Second Floor",
+    "building": "AB11",
+    "room": "312C",
+    "type": "Office",
+    "allocation": "Materials Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB11",
+    "floor": "Third Floor",
+    "building": "AB11",
+    "room": "401",
+    "type": "Student seating",
+    "allocation": "Unallocated",
+    "intended_allocation": "(Partially being used by Ctr for Res Comm)"
+  },
+  {
+    "sheet": "AB11",
+    "floor": "Third Floor",
+    "building": "AB11",
+    "room": "401A",
+    "type": "Office",
+    "allocation": "Ctr for Res Comm",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB11",
+    "floor": "Third Floor",
+    "building": "AB11",
+    "room": "401B",
+    "type": "Office",
+    "allocation": "Ctr for Res Comm",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB11",
+    "floor": "Third Floor",
+    "building": "AB11",
+    "room": "401C",
+    "type": "Office",
+    "allocation": "Ctr for Res Comm",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB11",
+    "floor": "Third Floor",
+    "building": "AB11",
+    "room": "401D",
+    "type": "Office",
+    "allocation": "Unallocated",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB11",
+    "floor": "Third Floor",
+    "building": "AB11",
+    "room": "401E",
+    "type": "Office",
+    "allocation": "Unallocated",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB11",
+    "floor": "Third Floor",
+    "building": "AB11",
+    "room": "401F",
+    "type": "Office",
+    "allocation": "Unallocated",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB11",
+    "floor": "Third Floor",
+    "building": "AB11",
+    "room": "402",
+    "type": "Meeting Room",
+    "allocation": "Unallocated",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB11",
+    "floor": "Third Floor",
+    "building": "AB11",
+    "room": "403",
+    "type": "Student seating",
+    "allocation": "Unallocated",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB11",
+    "floor": "Third Floor",
+    "building": "AB11",
+    "room": "403A",
+    "type": "Office",
+    "allocation": "Faculty Affairs",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB11",
+    "floor": "Third Floor",
+    "building": "AB11",
+    "room": "403B",
+    "type": "Office",
+    "allocation": "Faculty Affairs",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB11",
+    "floor": "Third Floor",
+    "building": "AB11",
+    "room": "403C",
+    "type": "Office",
+    "allocation": "Faculty Affairs",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB11",
+    "floor": "Third Floor",
+    "building": "AB11",
+    "room": "403D",
+    "type": "Office",
+    "allocation": "Faculty Affairs",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB11",
+    "floor": "Third Floor",
+    "building": "AB11",
+    "room": "403E",
+    "type": "Office",
+    "allocation": "Faculty Affairs",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB11",
+    "floor": "Third Floor",
+    "building": "AB11",
+    "room": "403F",
+    "type": "Office",
+    "allocation": "Faculty Affairs",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB11",
+    "floor": "Third Floor",
+    "building": "AB11",
+    "room": "403G",
+    "type": "Office",
+    "allocation": "Faculty Affairs",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB11",
+    "floor": "Third Floor",
+    "building": "AB11",
+    "room": "403H",
+    "type": "Office",
+    "allocation": "Faculty Affairs",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB12",
+    "floor": "First Floor",
+    "building": "AB12",
+    "room": "201",
+    "type": "Lab",
+    "allocation": "Earth Sciences",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB12",
+    "floor": "First Floor",
+    "building": "AB12",
+    "room": "202",
+    "type": "Lab",
+    "allocation": "Earth Sciences",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB12",
+    "floor": "First Floor",
+    "building": "AB12",
+    "room": "203",
+    "type": "Lab",
+    "allocation": "Earth Sciences",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB12",
+    "floor": "First Floor",
+    "building": "AB12",
+    "room": "204",
+    "type": "Meeting Room",
+    "allocation": "Unallocated",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB12",
+    "floor": "First Floor",
+    "building": "AB12",
+    "room": "205",
+    "type": "Lab",
+    "allocation": "Earth Sciences",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB12",
+    "floor": "First Floor",
+    "building": "AB12",
+    "room": "206",
+    "type": "Lab",
+    "allocation": "Earth Sciences",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB12",
+    "floor": "First Floor",
+    "building": "AB12",
+    "room": "207",
+    "type": "Lab",
+    "allocation": "Earth Sciences",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB12",
+    "floor": "First Floor",
+    "building": "AB12",
+    "room": "208",
+    "type": "Lab",
+    "allocation": "Earth Sciences",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB12",
+    "floor": "Ground Floor",
+    "building": "AB12",
+    "room": "101",
+    "type": "Lab",
+    "allocation": "Civil Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB12",
+    "floor": "Ground Floor",
+    "building": "AB12",
+    "room": "102",
+    "type": "Lab",
+    "allocation": "Unallocated",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB12",
+    "floor": "Ground Floor",
+    "building": "AB12",
+    "room": "103",
+    "type": "Lab",
+    "allocation": "Unallocated",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB12",
+    "floor": "Ground Floor",
+    "building": "AB12",
+    "room": "104",
+    "type": "Lab",
+    "allocation": "Unallocated",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB12",
+    "floor": "Ground Floor",
+    "building": "AB12",
+    "room": "105",
+    "type": "Lab",
+    "allocation": "Unallocated",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB12",
+    "floor": "Ground Floor",
+    "building": "AB12",
+    "room": "106",
+    "type": "Lab",
+    "allocation": "Unallocated",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB12",
+    "floor": "Ground Floor",
+    "building": "AB12",
+    "room": "107",
+    "type": "Lab",
+    "allocation": "Unallocated",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB12",
+    "floor": "Ground Floor",
+    "building": "AB12",
+    "room": "108",
+    "type": "Lab",
+    "allocation": "Unallocated",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB12",
+    "floor": "Ground Floor",
+    "building": "AB12",
+    "room": "109",
+    "type": "Lab",
+    "allocation": "Unallocated",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB12",
+    "floor": "Second Floor",
+    "building": "AB12",
+    "room": "301",
+    "type": "Meeting Room",
+    "allocation": "Unallocated",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB12",
+    "floor": "Second Floor",
+    "building": "AB12",
+    "room": "302-303",
+    "type": "Student seating",
+    "allocation": "Unallocated",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB12",
+    "floor": "Second Floor",
+    "building": "AB12",
+    "room": "302A",
+    "type": "Office",
+    "allocation": "Cog Sciences",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB12",
+    "floor": "Second Floor",
+    "building": "AB12",
+    "room": "302B",
+    "type": "Office",
+    "allocation": "Cog Sciences",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB12",
+    "floor": "Second Floor",
+    "building": "AB12",
+    "room": "302C",
+    "type": "Office",
+    "allocation": "Cog Sciences",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB12",
+    "floor": "Second Floor",
+    "building": "AB12",
+    "room": "303A",
+    "type": "Office",
+    "allocation": "Chemical Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB12",
+    "floor": "Second Floor",
+    "building": "AB12",
+    "room": "303B",
+    "type": "Office",
+    "allocation": "Chemical Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB12",
+    "floor": "Second Floor",
+    "building": "AB12",
+    "room": "303C",
+    "type": "Office",
+    "allocation": "Chemical Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB12",
+    "floor": "Second Floor",
+    "building": "AB12",
+    "room": "304",
+    "type": "Meeting Room",
+    "allocation": "Unallocated",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB12",
+    "floor": "Second Floor",
+    "building": "AB12",
+    "room": "305-306",
+    "type": "Student seating",
+    "allocation": "Electrical Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB12",
+    "floor": "Second Floor",
+    "building": "AB12",
+    "room": "305A",
+    "type": "Office",
+    "allocation": "Electrical Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB12",
+    "floor": "Second Floor",
+    "building": "AB12",
+    "room": "305B",
+    "type": "Office",
+    "allocation": "Electrical Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB12",
+    "floor": "Second Floor",
+    "building": "AB12",
+    "room": "305C",
+    "type": "Office",
+    "allocation": "Electrical Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB12",
+    "floor": "Second Floor",
+    "building": "AB12",
+    "room": "305D",
+    "type": "Office",
+    "allocation": "Electrical Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB12",
+    "floor": "Second Floor",
+    "building": "AB12",
+    "room": "306A",
+    "type": "Office",
+    "allocation": "Electrical Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB12",
+    "floor": "Second Floor",
+    "building": "AB12",
+    "room": "306B",
+    "type": "Office",
+    "allocation": "Electrical Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB12",
+    "floor": "Second Floor",
+    "building": "AB12",
+    "room": "306C",
+    "type": "Office",
+    "allocation": "Electrical Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB12",
+    "floor": "Second Floor",
+    "building": "AB12",
+    "room": "306D",
+    "type": "Office",
+    "allocation": "Electrical Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB12",
+    "floor": "Second Floor",
+    "building": "AB12",
+    "room": "307",
+    "type": "Meeting Room",
+    "allocation": "Unallocated",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB12",
+    "floor": "Second Floor",
+    "building": "AB12",
+    "room": "308",
+    "type": "Meeting Room",
+    "allocation": "Unallocated",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB12",
+    "floor": "Third Floor",
+    "building": null,
+    "room": "401",
+    "type": "Meeting Room",
+    "allocation": "Earth Sciences",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB12",
+    "floor": "Third Floor",
+    "building": null,
+    "room": "402",
+    "type": "Student seating",
+    "allocation": "Earth Sciences",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB12",
+    "floor": "Third Floor",
+    "building": null,
+    "room": "402A",
+    "type": "Office",
+    "allocation": "Earth Sciences",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB12",
+    "floor": "Third Floor",
+    "building": null,
+    "room": "402B",
+    "type": "Office",
+    "allocation": "Earth Sciences",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB12",
+    "floor": "Third Floor",
+    "building": null,
+    "room": "402C",
+    "type": "Office",
+    "allocation": "Earth Sciences",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB12",
+    "floor": "Third Floor",
+    "building": null,
+    "room": "402D",
+    "type": "Office",
+    "allocation": "Earth Sciences",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB12",
+    "floor": "Third Floor",
+    "building": null,
+    "room": "402E",
+    "type": "Office",
+    "allocation": "Earth Sciences",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB12",
+    "floor": "Third Floor",
+    "building": null,
+    "room": "403",
+    "type": "Student seating",
+    "allocation": "Unallocated",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB12",
+    "floor": "Third Floor",
+    "building": null,
+    "room": "403A",
+    "type": "Office",
+    "allocation": "Civil Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB12",
+    "floor": "Third Floor",
+    "building": null,
+    "room": "403B",
+    "type": "Office",
+    "allocation": "Civil Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB12",
+    "floor": "Third Floor",
+    "building": null,
+    "room": "403C",
+    "type": "Office",
+    "allocation": "Civil Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB12",
+    "floor": "Third Floor",
+    "building": null,
+    "room": "403D",
+    "type": "Office",
+    "allocation": "Earth Sciences",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB12",
+    "floor": "Third Floor",
+    "building": null,
+    "room": "403E",
+    "type": "Office",
+    "allocation": "Earth Sciences",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB12",
+    "floor": "Third Floor",
+    "building": null,
+    "room": "403F",
+    "type": "Office",
+    "allocation": "Earth Sciences",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB12",
+    "floor": "Third Floor",
+    "building": null,
+    "room": "404",
+    "type": "Meeting Room",
+    "allocation": "Unallocated",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB12",
+    "floor": "Third Floor",
+    "building": null,
+    "room": "405",
+    "type": "Student seating",
+    "allocation": "Unallocated",
+    "intended_allocation": "(To be allocated to Maritime Engg + CSE)"
+  },
+  {
+    "sheet": "AB12",
+    "floor": "Third Floor",
+    "building": null,
+    "room": "405A",
+    "type": "Office",
+    "allocation": "Maritime Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB12",
+    "floor": "Third Floor",
+    "building": null,
+    "room": "405B",
+    "type": "Office",
+    "allocation": "Maritime Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB12",
+    "floor": "Third Floor",
+    "building": null,
+    "room": "405C",
+    "type": "Office",
+    "allocation": "Maritime Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB12",
+    "floor": "Third Floor",
+    "building": null,
+    "room": "405D",
+    "type": "Office",
+    "allocation": "Maritime Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB12",
+    "floor": "Third Floor",
+    "building": null,
+    "room": "405E",
+    "type": "Office",
+    "allocation": "Unallocated",
+    "intended_allocation": "(To be allocated to CSE)"
+  },
+  {
+    "sheet": "AB12",
+    "floor": "Third Floor",
+    "building": null,
+    "room": "405F",
+    "type": "Office",
+    "allocation": "Unallocated",
+    "intended_allocation": "(To be allocated to CSE)"
+  },
+  {
+    "sheet": "AB12",
+    "floor": "Third Floor",
+    "building": null,
+    "room": "405G",
+    "type": "Office",
+    "allocation": "Unallocated",
+    "intended_allocation": "(To be allocated to CSE)"
+  },
+  {
+    "sheet": "AB12",
+    "floor": "Third Floor",
+    "building": null,
+    "room": "405H",
+    "type": "Office",
+    "allocation": "Unallocated",
+    "intended_allocation": "(To be allocated to CSE)"
+  },
+  {
+    "sheet": "AB13",
+    "floor": "First Floor",
+    "building": "AB13",
+    "room": "201",
+    "type": "Student Seating",
+    "allocation": "Library",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB13",
+    "floor": "First Floor",
+    "building": "AB13",
+    "room": "202",
+    "type": "Lab",
+    "allocation": "CIF",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB13",
+    "floor": "First Floor",
+    "building": "AB13",
+    "room": "203",
+    "type": "Lab",
+    "allocation": "CIF",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB13",
+    "floor": "First Floor",
+    "building": "AB13",
+    "room": "204",
+    "type": "Lab",
+    "allocation": "CIF",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB13",
+    "floor": "First Floor",
+    "building": "AB13",
+    "room": "205",
+    "type": "Lab",
+    "allocation": "CIF",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB13",
+    "floor": "First Floor",
+    "building": "AB13",
+    "room": "206",
+    "type": "Lab",
+    "allocation": "CIF",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB13",
+    "floor": "First Floor",
+    "building": "AB13",
+    "room": "207",
+    "type": "Lab",
+    "allocation": "CIF",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB13",
+    "floor": "First Floor",
+    "building": "AB13",
+    "room": "208",
+    "type": "Lab",
+    "allocation": "CIF",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB13",
+    "floor": "First Floor",
+    "building": "AB13",
+    "room": "209",
+    "type": "Lab",
+    "allocation": "CIF",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB13",
+    "floor": "First Floor",
+    "building": "AB13",
+    "room": "210",
+    "type": "Lab",
+    "allocation": "CIF",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB13",
+    "floor": "First Floor",
+    "building": "AB13",
+    "room": "211",
+    "type": "Lab",
+    "allocation": "CIF",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB13",
+    "floor": "First Floor",
+    "building": "AB13",
+    "room": "212",
+    "type": "Meeting Room",
+    "allocation": "Unallocated",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB13",
+    "floor": "First Floor",
+    "building": "AB13",
+    "room": "213",
+    "type": "Lab",
+    "allocation": "CIF",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB13",
+    "floor": "First Floor",
+    "building": "AB13",
+    "room": "214",
+    "type": "Lab",
+    "allocation": "CIF",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB13",
+    "floor": "First Floor",
+    "building": "AB13",
+    "room": "215",
+    "type": "Lab",
+    "allocation": "CIF",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB13",
+    "floor": "First Floor",
+    "building": "AB13",
+    "room": "216",
+    "type": "Lab",
+    "allocation": "CIF",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB13",
+    "floor": "First Floor",
+    "building": "AB13",
+    "room": "217",
+    "type": "Meeting Room",
+    "allocation": "CIF",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB13",
+    "floor": "First Floor",
+    "building": "AB13",
+    "room": "218",
+    "type": "Lab",
+    "allocation": "CIF",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB13",
+    "floor": "First Floor",
+    "building": "AB13",
+    "room": "219",
+    "type": "Lab",
+    "allocation": "CIF",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB13",
+    "floor": "First Floor",
+    "building": "AB13",
+    "room": "220",
+    "type": "Lab",
+    "allocation": "CIF",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB13",
+    "floor": "First Floor",
+    "building": "AB13",
+    "room": "221",
+    "type": "Meeting Room",
+    "allocation": "CIF",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB13",
+    "floor": "Ground Floor",
+    "building": "AB13",
+    "room": "101",
+    "type": "Student Seating",
+    "allocation": "Library",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB13",
+    "floor": "Ground Floor",
+    "building": "AB13",
+    "room": "102",
+    "type": "Lab",
+    "allocation": "CIF",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB13",
+    "floor": "Ground Floor",
+    "building": "AB13",
+    "room": "103",
+    "type": "Lab",
+    "allocation": "CIF",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB13",
+    "floor": "Ground Floor",
+    "building": "AB13",
+    "room": "104",
+    "type": "Lab",
+    "allocation": "CIF",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB13",
+    "floor": "Ground Floor",
+    "building": "AB13",
+    "room": "105",
+    "type": "Lab",
+    "allocation": "CIF",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB13",
+    "floor": "Ground Floor",
+    "building": "AB13",
+    "room": "106",
+    "type": "Lab",
+    "allocation": "CIF",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB13",
+    "floor": "Ground Floor",
+    "building": "AB13",
+    "room": "107",
+    "type": "Lab",
+    "allocation": "CIF",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB13",
+    "floor": "Ground Floor",
+    "building": "AB13",
+    "room": "108",
+    "type": "Lab",
+    "allocation": "CIF",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB13",
+    "floor": "Ground Floor",
+    "building": "AB13",
+    "room": "109",
+    "type": "Lab",
+    "allocation": "CIF",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB13",
+    "floor": "Ground Floor",
+    "building": "AB13",
+    "room": "110",
+    "type": "Lab",
+    "allocation": "CIF",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB13",
+    "floor": "Ground Floor",
+    "building": "AB13",
+    "room": "111",
+    "type": "?",
+    "allocation": null,
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB13",
+    "floor": "Ground Floor",
+    "building": "AB13",
+    "room": "112",
+    "type": "Meeting Room",
+    "allocation": "Unallocated",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB13",
+    "floor": "Ground Floor",
+    "building": "AB13",
+    "room": "113",
+    "type": "Meeting Room",
+    "allocation": "Unallocated",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB13",
+    "floor": "Ground Floor",
+    "building": "AB13",
+    "room": "114",
+    "type": "Lab",
+    "allocation": "CIF",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB13",
+    "floor": "Ground Floor",
+    "building": "AB13",
+    "room": "115",
+    "type": "Lab",
+    "allocation": "CIF",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB13",
+    "floor": "Ground Floor",
+    "building": "AB13",
+    "room": "116",
+    "type": "Lab",
+    "allocation": "CIF",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB13",
+    "floor": "Ground Floor",
+    "building": "AB13",
+    "room": "117",
+    "type": "Lab",
+    "allocation": "CIF",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB13",
+    "floor": "Ground Floor",
+    "building": "AB13",
+    "room": "118",
+    "type": "Lab",
+    "allocation": "CIF",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB13",
+    "floor": "Ground Floor",
+    "building": "AB13",
+    "room": "119",
+    "type": "Lab",
+    "allocation": "CIF",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB13",
+    "floor": "Ground Floor",
+    "building": "AB13",
+    "room": "120",
+    "type": "Lab",
+    "allocation": "CIF",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB13",
+    "floor": "Ground Floor",
+    "building": "AB13",
+    "room": "121",
+    "type": "Utility",
+    "allocation": "ELV Room",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB13",
+    "floor": "Ground Floor",
+    "building": "AB13",
+    "room": "122",
+    "type": "Meeting Room",
+    "allocation": "Unallocated",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB13",
+    "floor": "Ground Floor",
+    "building": "AB13",
+    "room": "123",
+    "type": "Meeting Room",
+    "allocation": "Unallocated",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB13",
+    "floor": "Ground Floor",
+    "building": "AB13",
+    "room": "124",
+    "type": "Classroom",
+    "allocation": "Academic Affairs",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB13",
+    "floor": "Ground Floor",
+    "building": "AB13",
+    "room": "125",
+    "type": "Classroom",
+    "allocation": "Academic Affairs",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB13",
+    "floor": "Ground Floor",
+    "building": "AB13",
+    "room": "126",
+    "type": "Classroom",
+    "allocation": "Academic Affairs",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB13",
+    "floor": "Second Floor",
+    "building": "AB13",
+    "room": "301",
+    "type": "Lab",
+    "allocation": "Electrical Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB13",
+    "floor": "Second Floor",
+    "building": "AB13",
+    "room": "302",
+    "type": "Lab",
+    "allocation": "Electrical Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB13",
+    "floor": "Second Floor",
+    "building": "AB13",
+    "room": "303",
+    "type": "Lab",
+    "allocation": "Electrical Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB13",
+    "floor": "Second Floor",
+    "building": "AB13",
+    "room": "304",
+    "type": "Lab",
+    "allocation": "Electrical Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB13",
+    "floor": "Second Floor",
+    "building": "AB13",
+    "room": "305",
+    "type": "Lab",
+    "allocation": "Electrical Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB13",
+    "floor": "Second Floor",
+    "building": "AB13",
+    "room": "306",
+    "type": "Lab",
+    "allocation": "Electrical Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB13",
+    "floor": "Second Floor",
+    "building": "AB13",
+    "room": "307",
+    "type": "Meeting Room",
+    "allocation": "Unallocated",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB13",
+    "floor": "Second Floor",
+    "building": "AB13",
+    "room": "308",
+    "type": "Meeting Room",
+    "allocation": "Unallocated",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB13",
+    "floor": "Second Floor",
+    "building": "AB13",
+    "room": "309",
+    "type": "Lab",
+    "allocation": "Electrical Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB13",
+    "floor": "Second Floor",
+    "building": "AB13",
+    "room": "310",
+    "type": "Lab",
+    "allocation": "Electrical Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB13",
+    "floor": "Second Floor",
+    "building": "AB13",
+    "room": "311",
+    "type": "Lab",
+    "allocation": "Electrical Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB13",
+    "floor": "Second Floor",
+    "building": "AB13",
+    "room": "312",
+    "type": "Lab",
+    "allocation": "Electrical Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB13",
+    "floor": "Second Floor",
+    "building": "AB13",
+    "room": "313",
+    "type": "Lab",
+    "allocation": "Electrical Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB13",
+    "floor": "Second Floor",
+    "building": "AB13",
+    "room": "314",
+    "type": "Lab",
+    "allocation": "Electrical Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB13",
+    "floor": "Second Floor",
+    "building": "AB13",
+    "room": "315",
+    "type": "Lab",
+    "allocation": "Electrical Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB13",
+    "floor": "Second Floor",
+    "building": "AB13",
+    "room": "316",
+    "type": "Lab",
+    "allocation": "CSE",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB13",
+    "floor": "Second Floor",
+    "building": "AB13",
+    "room": "317",
+    "type": "Lab",
+    "allocation": "CSE",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB13",
+    "floor": "Second Floor",
+    "building": "AB13",
+    "room": "318",
+    "type": "Lab",
+    "allocation": "CSE",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB13",
+    "floor": "Second Floor",
+    "building": "AB13",
+    "room": "319",
+    "type": "Lab",
+    "allocation": "CSE",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB13",
+    "floor": "Second Floor",
+    "building": "AB13",
+    "room": "320",
+    "type": "Meeting Room",
+    "allocation": "Unallocated",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB13",
+    "floor": "Second Floor",
+    "building": "AB13",
+    "room": "321",
+    "type": "Student Seating",
+    "allocation": "Electrical Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB13",
+    "floor": "Second Floor",
+    "building": "AB13",
+    "room": "321A",
+    "type": "Office",
+    "allocation": "Electrical Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB13",
+    "floor": "Second Floor",
+    "building": "AB13",
+    "room": "321B",
+    "type": "Office",
+    "allocation": "Electrical Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB13",
+    "floor": "Second Floor",
+    "building": "AB13",
+    "room": "321C",
+    "type": "Office",
+    "allocation": "Electrical Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB13",
+    "floor": "Second Floor",
+    "building": "AB13",
+    "room": "321D",
+    "type": "Office",
+    "allocation": "Electrical Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB13",
+    "floor": "Second Floor",
+    "building": "AB13",
+    "room": "322",
+    "type": "Student Seating",
+    "allocation": "Electrical Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB13",
+    "floor": "Second Floor",
+    "building": "AB13",
+    "room": "322A",
+    "type": "Office",
+    "allocation": "Electrical Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB13",
+    "floor": "Second Floor",
+    "building": "AB13",
+    "room": "322B",
+    "type": "Office",
+    "allocation": "Electrical Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB13",
+    "floor": "Second Floor",
+    "building": "AB13",
+    "room": "322C",
+    "type": "Office",
+    "allocation": "Electrical Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB13",
+    "floor": "Second Floor",
+    "building": "AB13",
+    "room": "322D",
+    "type": "Office",
+    "allocation": "Electrical Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB13",
+    "floor": "Second Floor",
+    "building": "AB13",
+    "room": "323",
+    "type": "Student Seating",
+    "allocation": "Electrical Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB13",
+    "floor": "Second Floor",
+    "building": "AB13",
+    "room": "323A",
+    "type": "Office",
+    "allocation": "Electrical Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB13",
+    "floor": "Second Floor",
+    "building": "AB13",
+    "room": "323B",
+    "type": "Office",
+    "allocation": "Electrical Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB13",
+    "floor": "Second Floor",
+    "building": "AB13",
+    "room": "323C",
+    "type": "Office",
+    "allocation": "Electrical Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB13",
+    "floor": "Second Floor",
+    "building": "AB13",
+    "room": "324",
+    "type": "Student Seating",
+    "allocation": "Electrical Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB13",
+    "floor": "Second Floor",
+    "building": "AB13",
+    "room": "324A",
+    "type": "Office",
+    "allocation": "Electrical Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB13",
+    "floor": "Second Floor",
+    "building": "AB13",
+    "room": "324B",
+    "type": "Office",
+    "allocation": "Electrical Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB13",
+    "floor": "Second Floor",
+    "building": "AB13",
+    "room": "324C",
+    "type": "Office",
+    "allocation": "Electrical Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB13",
+    "floor": "Second Floor",
+    "building": "AB13",
+    "room": "325",
+    "type": "Meeting Room",
+    "allocation": "Unallocated",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB13",
+    "floor": "Second Floor",
+    "building": "AB13",
+    "room": "326",
+    "type": "Student Seating",
+    "allocation": "Electrical Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB13",
+    "floor": "Second Floor",
+    "building": "AB13",
+    "room": "326A",
+    "type": "Office",
+    "allocation": "Electrical Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB13",
+    "floor": "Second Floor",
+    "building": "AB13",
+    "room": "326B",
+    "type": "Office",
+    "allocation": "Electrical Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB13",
+    "floor": "Second Floor",
+    "building": "AB13",
+    "room": "326C",
+    "type": "Office",
+    "allocation": "Electrical Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB13",
+    "floor": "Second Floor",
+    "building": "AB13",
+    "room": "326D",
+    "type": "Office",
+    "allocation": "Electrical Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB13",
+    "floor": "Second Floor",
+    "building": "AB13",
+    "room": "327",
+    "type": "Student Seating",
+    "allocation": "Electrical Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB13",
+    "floor": "Second Floor",
+    "building": "AB13",
+    "room": "327A",
+    "type": "Office",
+    "allocation": "Electrical Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB13",
+    "floor": "Second Floor",
+    "building": "AB13",
+    "room": "327B",
+    "type": "Office",
+    "allocation": "Electrical Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB13",
+    "floor": "Second Floor",
+    "building": "AB13",
+    "room": "327C",
+    "type": "Office",
+    "allocation": "Electrical Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB13",
+    "floor": "Second Floor",
+    "building": "AB13",
+    "room": "327D",
+    "type": "Office",
+    "allocation": "Electrical Engg",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB13",
+    "floor": "Third Floor",
+    "building": "AB13",
+    "room": "401",
+    "type": "Student Seating",
+    "allocation": "CSE",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB13",
+    "floor": "Third Floor",
+    "building": "AB13",
+    "room": "401A",
+    "type": "Office",
+    "allocation": "CSE",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB13",
+    "floor": "Third Floor",
+    "building": "AB13",
+    "room": "401B",
+    "type": "Office",
+    "allocation": "CSE",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB13",
+    "floor": "Third Floor",
+    "building": "AB13",
+    "room": "401C",
+    "type": "Office",
+    "allocation": "CSE",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB13",
+    "floor": "Third Floor",
+    "building": "AB13",
+    "room": "401D",
+    "type": "Office",
+    "allocation": "CSE",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB13",
+    "floor": "Third Floor",
+    "building": "AB13",
+    "room": "401E",
+    "type": "Office",
+    "allocation": "CSE",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB13",
+    "floor": "Third Floor",
+    "building": "AB13",
+    "room": "401F",
+    "type": "Office",
+    "allocation": "CSE",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB13",
+    "floor": "Third Floor",
+    "building": "AB13",
+    "room": "401G",
+    "type": "Office",
+    "allocation": "CSE",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB13",
+    "floor": "Third Floor",
+    "building": "AB13",
+    "room": "401H",
+    "type": "Office",
+    "allocation": "CSE",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB13",
+    "floor": "Third Floor",
+    "building": "AB13",
+    "room": "401I",
+    "type": "Office",
+    "allocation": "CSE",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB13",
+    "floor": "Third Floor",
+    "building": "AB13",
+    "room": "401J",
+    "type": "Office",
+    "allocation": "CSE",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB13",
+    "floor": "Third Floor",
+    "building": "AB13",
+    "room": "402-403",
+    "type": "Student Seating",
+    "allocation": "CSE",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB13",
+    "floor": "Third Floor",
+    "building": "AB13",
+    "room": "402A",
+    "type": "Office",
+    "allocation": "CSE",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB13",
+    "floor": "Third Floor",
+    "building": "AB13",
+    "room": "402B",
+    "type": "Office",
+    "allocation": "CSE",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB13",
+    "floor": "Third Floor",
+    "building": "AB13",
+    "room": "403A",
+    "type": "Office",
+    "allocation": "CSE",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB13",
+    "floor": "Third Floor",
+    "building": "AB13",
+    "room": "403B",
+    "type": "Office",
+    "allocation": "CSE",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB13",
+    "floor": "Third Floor",
+    "building": "AB13",
+    "room": "404",
+    "type": "Meeting Room",
+    "allocation": "Unallocated",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB13",
+    "floor": "Third Floor",
+    "building": "AB13",
+    "room": "405",
+    "type": "Student Seating",
+    "allocation": "CSE",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB13",
+    "floor": "Third Floor",
+    "building": "AB13",
+    "room": "405A",
+    "type": "Office",
+    "allocation": "CSE",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB13",
+    "floor": "Third Floor",
+    "building": "AB13",
+    "room": "405B",
+    "type": "Office",
+    "allocation": "CSE",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB13",
+    "floor": "Third Floor",
+    "building": "AB13",
+    "room": "405C",
+    "type": "Office",
+    "allocation": "CSE",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB13",
+    "floor": "Third Floor",
+    "building": "AB13",
+    "room": "405D",
+    "type": "Office",
+    "allocation": "CSE",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB13",
+    "floor": "Third Floor",
+    "building": "AB13",
+    "room": "405E",
+    "type": "Office",
+    "allocation": "CSE",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB13",
+    "floor": "Third Floor",
+    "building": "AB13",
+    "room": "405F",
+    "type": "Office",
+    "allocation": "CSE",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB13",
+    "floor": "Third Floor",
+    "building": "AB13",
+    "room": "405G",
+    "type": "Office",
+    "allocation": "CSE",
+    "intended_allocation": null
+  },
+  {
+    "sheet": "AB13",
+    "floor": "Third Floor",
+    "building": "AB13",
+    "room": "405H",
+    "type": "Office",
+    "allocation": "CSE",
+    "intended_allocation": null
+  }
+]
