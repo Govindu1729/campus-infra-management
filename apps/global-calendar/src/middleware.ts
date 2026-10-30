@@ -1,48 +1,61 @@
 import { NextResponse } from 'next/server'
 import type { NextRequest } from 'next/server'
-import { jwtVerify } from 'jose'
+import { verifySession, SESSION_COOKIE } from '@/lib/session'
 
-const SECRET = new TextEncoder().encode(
-  process.env.JWT_SECRET || 'dev-secret-replace-before-av5-deployment'
-)
+const PUBLIC_PATHS = [
+  '/login',
+  '/api/auth/login',
+  '/api/auth/logout',
+  '/health',
+  '/api/v1',  // v1 API has its own auth (X-Module-Key/Token or session cookie)
+]
+
+function isPublicPath(pathname: string): boolean {
+  return PUBLIC_PATHS.some(path => pathname === path || pathname.startsWith(path + '/'))
+}
 
 export async function middleware(request: NextRequest) {
   const { pathname } = request.nextUrl
 
-  // Always allow static assets (logo, background image, fonts, css)
-  if (/\.(svg|png|jpe?g|gif|webp|ico|css|js|map|woff2?)$/.test(pathname)) {
+  // Allow public paths without auth
+  if (isPublicPath(pathname)) {
     return NextResponse.next()
   }
 
-  // Public endpoints that bypass auth
-  if (pathname === '/api/health') return NextResponse.next()
-  if (pathname === '/api/auth/logout') return NextResponse.next()
+  // Static files, images, etc
+  if (pathname.startsWith('/_next') || pathname.startsWith('/favicon') || pathname.includes('.')) {
+    return NextResponse.next()
+  }
 
-  const token = request.cookies.get('gc_session')?.value
-  let valid = false
-  if (token) {
-    try {
-      await jwtVerify(token, SECRET)
-      valid = true
-    } catch {
-      valid = false
+  // Check session cookie
+  const sessionToken = request.cookies.get(SESSION_COOKIE)?.value
+  if (!sessionToken) {
+    if (pathname.startsWith('/api/')) {
+      return NextResponse.json({ success: false, message: 'Unauthorized' }, { status: 401 })
     }
+    const loginUrl = new URL('/login', request.url)
+    loginUrl.searchParams.set('redirect', pathname)
+    return NextResponse.redirect(loginUrl)
   }
 
-  if (valid) {
-    if (pathname === '/login') return NextResponse.redirect(new URL('/', request.url))
-    const res = NextResponse.next()
-    res.headers.set('X-Frame-Options', 'DENY')
-    res.headers.set('X-Content-Type-Options', 'nosniff')
-    return res
+  // Verify session
+  const userId = await verifySession(sessionToken)
+  if (!userId) {
+    if (pathname.startsWith('/api/')) {
+      return NextResponse.json({ success: false, message: 'Unauthorized' }, { status: 401 })
+    }
+    const loginUrl = new URL('/login', request.url)
+    loginUrl.searchParams.set('redirect', pathname)
+    return NextResponse.redirect(loginUrl)
   }
 
-  if (pathname === '/login' || pathname === '/api/auth/login') return NextResponse.next()
+  // Attach userId to headers for downstream use
+  const requestHeaders = new Headers(request.headers)
+  requestHeaders.set('x-user-id', userId.toString())
 
-  if (pathname.startsWith('/api/')) {
-    return NextResponse.json({ success: false, message: 'Unauthorized' }, { status: 401 })
-  }
-  return NextResponse.redirect(new URL('/login', request.url))
+  return NextResponse.next({
+    request: { headers: requestHeaders },
+  })
 }
 
 export const config = {

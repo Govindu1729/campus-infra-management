@@ -54,6 +54,7 @@ services:
     environment:
       DATABASE_URL: mysql://${MYSQL_USER:-campus}:${MYSQL_PASSWORD:-campuspass123}@db:3306/${MYSQL_DATABASE:-campus_infra}
       JWT_SECRET: ${JWT_SECRET}
+      SUPERAPP_MODULE_TOKEN: dev-module-token-change-in-prod
       NEXTAUTH_SECRET: ${NEXTAUTH_SECRET}
       NEXTAUTH_URL: ${NEXTAUTH_URL:-http://localhost:3000}
       NODE_ENV: production
