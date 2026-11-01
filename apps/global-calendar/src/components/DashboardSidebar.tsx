@@ -3,6 +3,7 @@
 import { useEffect, useMemo, useState } from 'react'
 import { Bell, CalendarDays, Clock3, History } from 'lucide-react'
 import { CalendarEvent } from '@/types'
+import TaskList from './TaskList'
 
 interface Props {
   events: CalendarEvent[]
@@ -201,6 +202,8 @@ export default function DashboardSidebar({ events, userId, userName, userEmail, 
           </ul>
         )}
       </div>
+
+      <TaskList />
     </aside>
   )
 }

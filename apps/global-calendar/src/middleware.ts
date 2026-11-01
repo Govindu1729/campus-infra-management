@@ -1,6 +1,7 @@
 import { NextResponse } from 'next/server'
 import type { NextRequest } from 'next/server'
 import { verifySession, SESSION_COOKIE } from '@/lib/session'
+import { prisma } from '@/lib/prisma'
 
 const PUBLIC_PATHS = [
   '/login',
@@ -47,6 +48,19 @@ export async function middleware(request: NextRequest) {
     const loginUrl = new URL('/login', request.url)
     loginUrl.searchParams.set('redirect', pathname)
     return NextResponse.redirect(loginUrl)
+  }
+
+  // Check admin-only routes
+  if (pathname.startsWith('/admin')) {
+    const user = await prisma.user.findUnique({
+      where: { id: userId },
+      select: { isSystemAdmin: true }
+    })
+    
+    if (!user?.isSystemAdmin) {
+      // Non-admin trying to access admin routes - redirect to home
+      return NextResponse.redirect(new URL('/', request.url))
+    }
   }
 
   // Attach userId to headers for downstream use
