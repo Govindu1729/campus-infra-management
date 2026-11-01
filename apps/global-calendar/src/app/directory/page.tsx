@@ -20,11 +20,22 @@ const ROLE_LABEL: Record<string, string> = {
 export default function DirectoryPage() {
   const [contacts, setContacts] = useState<Contact[]>([])
   const [loading, setLoading] = useState(true)
+  const [error, setError] = useState<string | null>(null)
   const [q, setQ] = useState('')
   const [cat, setCat] = useState<string | null>(null)
 
   useEffect(() => {
-    fetch('/api/directory').then(r => r.json()).then(d => { if (d.success) setContacts(d.data) }).finally(() => setLoading(false))
+    fetch('/api/directory')
+      .then(r => r.json())
+      .then(d => { 
+        if (d.success) {
+          setContacts(d.data)
+        } else {
+          setError(d.message || 'Access denied')
+        }
+      })
+      .catch(() => setError('Failed to load directory'))
+      .finally(() => setLoading(false))
   }, [])
 
   const filtered = useMemo(() => contacts.filter(c => {
@@ -34,6 +45,15 @@ export default function DirectoryPage() {
   }), [contacts, q, cat])
 
   if (loading) return <div className="p-8 text-sm text-gray-500 text-center">Loading directory…</div>
+  
+  if (error) return (
+    <div className="max-w-[1600px] mx-auto px-6 py-8">
+      <div className="bg-red-50 border border-red-200 rounded-md p-6 text-center">
+        <p className="text-sm font-medium text-red-900">{error}</p>
+        <p className="text-xs text-red-700 mt-2">The Faculty Directory is restricted to module owners, heads of departments, and administrators.</p>
+      </div>
+    </div>
+  )
 
   return (
     <div className="max-w-[1600px] mx-auto px-6 py-8">
