@@ -5,7 +5,7 @@
 export interface FicEntry {
   officialTitle: string
   primaryEmail: string
-  secondaryEmails?: string
+  secondaryEmail?: string
   systemRole: 'SUPER_ADMIN' | 'DEAN_ADMIN' | 'ASSOCIATE_DEAN' | 'COMMITTEE_CHAIR' | 'FIC_COORDINATOR' | 'CO_COORDINATOR' | 'HOD'
   category: 'ACADEMIC' | 'STUDENT_WELFARE' | 'INFRASTRUCTURE' | 'RESEARCH_ADVANCEMENT'
   parentTitle?: string // Links secondary contacts to their primary

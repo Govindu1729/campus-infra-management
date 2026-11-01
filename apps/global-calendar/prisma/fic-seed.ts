@@ -59,9 +59,10 @@ async function main() {
         functionalCategoryId: categoryMap[contact.category],
       },
       create: {
+        name: contact.officialTitle,
         officialTitle: contact.officialTitle,
         primaryEmail: contact.primaryEmail,
-        secondaryEmails: contact.secondaryEmails || null,
+        secondaryEmail: contact.secondaryEmail || null,
         systemRole: contact.systemRole,
         functionalCategoryId: categoryMap[contact.category],
       },

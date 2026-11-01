@@ -1,3 +1,6 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
 generator client {
   provider = "prisma-client-js"
 }
@@ -8,39 +11,50 @@ datasource db {
 }
 
 model User {
-  id            Int      @id @default(autoincrement())
-  email         String   @unique
-  name          String
-  positionTitle String
-  passwordHash  String
-  isSystemAdmin Boolean  @default(false)
-  createdAt     DateTime @default(now())
+  id             Int       @id @default(autoincrement())
+  email          String    @unique
+  name           String
+  positionTitle  String?
+  passwordHash   String
+  isSystemAdmin  Boolean   @default(false)
+  createdAt      DateTime  @default(now())
+  updatedAt      DateTime  @updatedAt
 
-  permissions       UserModulePermission[]
-  eventParticipants EventParticipant[]
+  // Relations
+  createdEvents           CalendarEvent[]       @relation("EventCreator")
+  eventParticipants       EventParticipant[]
+  modulePermissions       UserModulePermission[] @relation("GrantedTo")
+  grantedPermissions      UserModulePermission[] @relation("GrantedBy")
+  reminders               Reminder[]            @relation("ReminderOwner")
+  notifications           Notification[]        @relation("NotificationRecipient")
+  createdTasks            Task[]                @relation("TaskCreator")
+  taskAssignees           TaskAssignee[]
 
   @@map("users")
 }
 
 model CalendarEvent {
-  id             BigInt   @id @default(autoincrement())
-  sourceModule   String
-  title          String
-  description    String?
-  startTime      DateTime
-  endTime        DateTime
-  isAllDay       Boolean  @default(false)
-  eventType      String
-  visibility     String   @default("MODULE_ONLY")
-  recurrenceRule String?
-  metadata       Json?
-  status         String   @default("ACTIVE")
-  createdBy      Int
-  createdAt      DateTime @default(now())
-  updatedAt      DateTime @updatedAt
+  id              Int       @id @default(autoincrement())
+  sourceModule    String
+  title           String
+  description     String?   @db.VarChar(2000)
+  startTime       DateTime
+  endTime         DateTime
+  isAllDay        Boolean   @default(false)
+  eventType       EventType @default(MEETING)
+  visibility      Visibility @default(PUBLIC)
+  recurrenceRule  String?
+  metadata        Json?
+  status          EventStatus @default(ACTIVE)
+  createdBy       Int
+  createdAt       DateTime  @default(now())
+  updatedAt       DateTime  @updatedAt
 
-  participants EventParticipant[]
-  auditLogs    AuditLog[]
+  // Relations
+  creator         User      @relation("EventCreator", fields: [createdBy], references: [id])
+  participants    EventParticipant[]
+  reminders       Reminder[]
+  auditLogs       AuditLog[]
 
   @@index([sourceModule])
   @@index([startTime, endTime])
@@ -48,60 +62,250 @@ model CalendarEvent {
 }
 
 model EventParticipant {
-  id         BigInt @id @default(autoincrement())
-  eventId    BigInt
-  userId     Int
-  role       String @default("ATTENDEE")
-  rsvpStatus String @default("PENDING")
+  id        Int       @id @default(autoincrement())
+  eventId   Int
+  userId    Int
+  role      ParticipantRole @default(ATTENDEE)
+  createdAt DateTime  @default(now())
 
-  event CalendarEvent @relation(fields: [eventId], references: [id], onDelete: Cascade)
-  user  User          @relation(fields: [userId], references: [id], onDelete: Cascade)
+  event     CalendarEvent @relation(fields: [eventId], references: [id], onDelete: Cascade)
+  user      User          @relation(fields: [userId], references: [id], onDelete: Cascade)
 
   @@unique([eventId, userId])
+  @@index([userId])
   @@map("event_participants")
 }
 
 model UserModulePermission {
-  id         BigInt   @id @default(autoincrement())
-  userId     Int
-  moduleName String
-  canView    Boolean  @default(true)
-  canEdit    Boolean  @default(false)
-  grantedBy  Int
-  grantedAt  DateTime @default(now())
+  id          Int       @id @default(autoincrement())
+  userId      Int
+  moduleName  String
+  canView     Boolean   @default(true)
+  canEdit     Boolean   @default(false)
+  grantedBy   Int
+  grantedAt   DateTime  @default(now())
 
-  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+  user        User      @relation("GrantedTo", fields: [userId], references: [id], onDelete: Cascade)
+  granter     User      @relation("GrantedBy", fields: [grantedBy], references: [id])
 
   @@unique([userId, moduleName])
   @@map("user_module_permissions")
 }
 
 model AuditLog {
-  id        BigInt   @id @default(autoincrement())
+  id        Int       @id @default(autoincrement())
   action    String
-  eventId   BigInt?
-  userId    Int
+  eventId   Int?
+  userId    Int?
   ipAddress String?
   details   Json?
-  timestamp DateTime @default(now())
+  timestamp DateTime  @default(now())
+  createdAt DateTime  @default(now())
 
-  event CalendarEvent? @relation(fields: [eventId], references: [id])
+  event     CalendarEvent? @relation(fields: [eventId], references: [id], onDelete: SetNull)
 
-  @@index([timestamp])
+  @@index([eventId])
   @@index([userId])
-  @@map("calendar_audit_log")
+  @@index([timestamp])
+  @@map("audit_logs")
 }
 
 model Room {
-  id         Int    @id @default(autoincrement())
-  building   String
-  roomNumber String
-  label      String @unique
-  purpose    String
-  capacity   Int?
+  id          Int       @id @default(autoincrement())
+  building    String
+  roomNumber  String
+  label       String    @unique
+  purpose     RoomPurpose @default(MEETING_ROOM)
+  capacity    Int       @default(10)
+  metadata    Json?
+  createdAt   DateTime  @default(now())
 
   @@index([building])
   @@map("rooms")
+}
+
+model Reminder {
+  id              Int       @id @default(autoincrement())
+  eventId         Int
+  createdBy       Int
+  reminderType    ReminderType
+  minutesBefore   Int
+  channel         ReminderChannel @default(IN_APP)
+  message         String?
+  scheduledAt     DateTime
+  sentAt          DateTime?
+  status          ReminderStatus @default(PENDING)
+  createdAt       DateTime  @default(now())
+
+  event           CalendarEvent @relation(fields: [eventId], references: [id], onDelete: Cascade)
+  creator         User          @relation("ReminderOwner", fields: [createdBy], references: [id])
+
+  @@index([scheduledAt, status])
+  @@map("reminders")
+}
+
+model Notification {
+  id              Int       @id @default(autoincrement())
+  recipientId     Int
+  type            NotificationType
+  title           String
+  message         String
+  eventId         Int?
+  taskId          Int?
+  readAt          DateTime?
+  createdAt       DateTime  @default(now())
+
+  recipient       User      @relation("NotificationRecipient", fields: [recipientId], references: [id], onDelete: Cascade)
+
+  @@index([recipientId, readAt])
+  @@index([createdAt])
+  @@map("notifications")
+}
+
+model Task {
+  id              Int       @id @default(autoincrement())
+  sourceModule    String
+  title           String
+  description     String?   @db.VarChar(2000)
+  deadline        DateTime
+  priority        TaskPriority @default(MEDIUM)
+  status          TaskStatus @default(PENDING)
+  createdBy       Int
+  createdAt       DateTime  @default(now())
+  updatedAt       DateTime  @updatedAt
+
+  creator         User      @relation("TaskCreator", fields: [createdBy], references: [id])
+  assignees       TaskAssignee[]
+
+  @@index([sourceModule])
+  @@index([deadline])
+  @@map("tasks")
+}
+
+model TaskAssignee {
+  id        Int       @id @default(autoincrement())
+  taskId    Int
+  userId    Int
+  createdAt DateTime  @default(now())
+
+  task      Task      @relation(fields: [taskId], references: [id], onDelete: Cascade)
+  user      User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([taskId, userId])
+  @@index([userId])
+  @@map("task_assignees")
+}
+
+enum EventType {
+  MEETING
+  TASK
+  REMINDER
+  DEADLINE
+  MILESTONE
+}
+
+enum Visibility {
+  PUBLIC
+  MODULE_ONLY
+  ADMIN_ONLY
+}
+
+enum EventStatus {
+  ACTIVE
+  CANCELLED
+  COMPLETED
+}
+
+enum ParticipantRole {
+  ORGANIZER
+  ATTENDEE
+  OPTIONAL
+}
+
+enum RoomPurpose {
+  MEETING_ROOM
+  CLASSROOM
+  LAB
+  SEMINAR_HALL
+  BOARD_ROOM
+  OFFICE
+}
+
+enum ReminderType {
+  BEFORE_EVENT
+  DEADLINE_APPROACHING
+  TASK_OVERDUE
+  CUSTOM
+}
+
+enum ReminderChannel {
+  IN_APP
+  EMAIL
+  BOTH
+}
+
+enum ReminderStatus {
+  PENDING
+  SENT
+  FAILED
+  CANCELLED
+}
+
+enum NotificationType {
+  REMINDER
+  DEADLINE_ALERT
+  TASK_ASSIGNED
+  TASK_OVERDUE
+  EVENT_UPDATE
+  CUSTOM
+}
+
+enum TaskPriority {
+  LOW
+  MEDIUM
+  HIGH
+  URGENT
+}
+
+enum TaskStatus {
+  PENDING
+  IN_PROGRESS
+  COMPLETED
+  OVERDUE
+  CANCELLED
+}
+
+model FunctionalCategory {
+  id          Int       @id @default(autoincrement())
+  name        String    @unique
+  description String?   @db.VarChar(500)
+  createdAt   DateTime  @default(now())
+  contacts    FicContact[]
+
+  @@map("functional_categories")
+}
+
+model FicContact {
+  id                  Int       @id @default(autoincrement())
+  name                String
+  officialTitle       String
+  primaryEmail        String    @unique
+  secondaryEmail      String?
+  voipNumber          String?
+  officeLocation      String?
+  systemRole          String?
+  functionalCategoryId Int
+  parentContactId     Int?
+  createdAt           DateTime  @default(now())
+  updatedAt           DateTime  @updatedAt
+
+  functionalCategory  FunctionalCategory @relation(fields: [functionalCategoryId], references: [id])
+  parentContact       FicContact?        @relation("FICHierarchy", fields: [parentContactId], references: [id])
+  childrenContacts    FicContact[]       @relation("FICHierarchy")
+
+  @@index([functionalCategoryId])
+  @@index([parentContactId])
+  @@map("fic_contacts")
 }
 
 model ServiceKey {
@@ -110,50 +314,13 @@ model ServiceKey {
   moduleName  String
   keyHash     String    @unique
   keyPrefix   String
-  permissions Json
+  permissions Json?
   isActive    Boolean   @default(true)
   lastUsed    DateTime?
-  createdAt   DateTime  @default(now())
   createdBy   Int
+  createdAt   DateTime  @default(now())
+  updatedAt   DateTime  @updatedAt
 
   @@index([moduleName])
-  @@index([keyHash])
   @@map("service_keys")
-}
-
-// ============================================================
-// FIC Contact & Role Hierarchy Models
-// ============================================================
-
-model FunctionalCategory {
-  id          Int      @id @default(autoincrement())
-  name        String   @unique
-  description String?
-  createdAt   DateTime @default(now())
-
-  contacts FicContact[]
-
-  @@map("functional_categories")
-}
-
-model FicContact {
-  id                   Int      @id @default(autoincrement())
-  officialTitle        String
-  primaryEmail         String   @unique
-  secondaryEmails      String?
-  systemRole           String   @default("FIC_COORDINATOR")
-  functionalCategoryId Int
-  parentContactId      Int?
-  isActive             Boolean  @default(true)
-  createdAt            DateTime @default(now())
-  updatedAt            DateTime @updatedAt
-
-  functionalCategory FunctionalCategory @relation(fields: [functionalCategoryId], references: [id])
-  parentContact      FicContact?        @relation("ContactHierarchy", fields: [parentContactId], references: [id])
-  secondaryContacts  FicContact[]       @relation("ContactHierarchy")
-
-  @@index([functionalCategoryId])
-  @@index([systemRole])
-  @@index([parentContactId])
-  @@map("fic_contacts")
 }

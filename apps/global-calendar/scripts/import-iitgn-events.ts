@@ -1,4 +1,4 @@
-import { PrismaClient } from '@prisma/client'
+import { PrismaClient, EventType } from '@prisma/client'
 
 const prisma = new PrismaClient()
 
@@ -112,7 +112,7 @@ async function main() {
         endTime,
         isAllDay: ev.start === ev.end || !ev.end,
         sourceModule,
-        eventType,
+        eventType: (eventType as string).toUpperCase() as EventType,
         visibility: 'PUBLIC',
         metadata: {
           location: ev.venue || null,

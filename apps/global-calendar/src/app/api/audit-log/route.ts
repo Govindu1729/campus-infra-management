@@ -27,7 +27,7 @@ export async function GET(request: NextRequest) {
     const where: Prisma.AuditLogWhereInput = {}
     if (query.action) where.action = query.action
     if (query.userId) where.userId = query.userId
-    if (query.eventId) where.eventId = BigInt(query.eventId)
+    if (query.eventId) where.eventId = query.eventId
     if (query.startTime || query.endTime) {
       where.timestamp = {
         ...(query.startTime ? { gte: query.startTime } : {}),
