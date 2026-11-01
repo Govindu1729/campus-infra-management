@@ -44,6 +44,8 @@ USER nextjs
 EXPOSE 3000
 ENV PORT=3000
 ENV HOSTNAME="0.0.0.0"
-HEALTHCHECK --interval=30s --timeout=5s --start-period=15s --retries=3 \
-  CMD curl -f http://localhost:3000/api/health || exit 1
+# `/api/health` is behind session middleware (401 -> unhealthy); `/health` is
+# public and also verifies DB connectivity. Probe that instead.
+HEALTHCHECK --interval=30s --timeout=5s --start-period=20s --retries=3 \
+  CMD curl -fsS http://localhost:3000/health || exit 1
 CMD ["node", "server.js"]

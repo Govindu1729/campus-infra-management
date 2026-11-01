@@ -1,6 +1,7 @@
 import { NextRequest } from 'next/server'
 import { prisma } from '@/lib/prisma'
 import { getAuthUser } from '@/lib/auth'
+import { authorizeV1ServiceKey } from '@/lib/service-keys'
 
 // Module key → sourceModule mapping (string-based, extensible)
 export const MODULE_KEY_MAP: Record<string, string> = {
@@ -13,8 +14,9 @@ export const MODULE_KEY_MAP: Record<string, string> = {
   'academic-affairs': 'ACADEMIC_AFFAIRS',
 }
 
-// Dev token: in production, hash + store in `service_keys` table
-const MODULE_TOKEN = process.env.SUPERAPP_MODULE_TOKEN || 'dev-module-token-change-in-prod'
+// Module authentication is backed by the `service_keys` table (hashed, per-module,
+// revocable). There is intentionally NO hard-coded fallback token: if a module has
+// no active service key, module auth fails closed with 401.
 
 export interface V1Caller {
   type: 'module' | 'human'
@@ -30,9 +32,14 @@ export async function getV1Caller(req: NextRequest): Promise<V1Caller | null> {
   const moduleKey = req.headers.get('x-module-key')
   const moduleToken = req.headers.get('x-module-token')
   if (moduleKey && moduleToken) {
-    if (moduleToken !== MODULE_TOKEN) return null
     const sourceModule = MODULE_KEY_MAP[moduleKey]
     if (!sourceModule) return null
+
+    // Timing-safe verification against the hashed service key for this module.
+    // Fails closed (null -> 401) when the key is missing, inactive, or mismatched.
+    const authorized = await authorizeV1ServiceKey(moduleKey, moduleToken)
+    if (!authorized) return null
+
     return { type: 'module', moduleKey, sourceModule }
   }
 

@@ -6,15 +6,40 @@ import { z } from 'zod'
 
 export const dynamic = 'force-dynamic';
 
+// `moduleName` must match the v1 `X-Module-Key` values (MODULE_KEY_MAP in
+// src/lib/v1/auth.ts) so a key created here can actually authenticate against
+// /api/v1. Legacy uppercase service names are kept for backward compatibility.
 const createKeySchema = z.object({
   name: z.string().min(1),
-  moduleName: z.enum(['IWD', 'FINANCE', 'RND', 'HMS', 'ROOM_INFO', 'ADMIN']),
+  moduleName: z.enum([
+    // v1 module keys (these authenticate against /api/v1/calendar/*)
+    'global-calendar',
+    'room-info',
+    'finance',
+    'hms',
+    'rnd',
+    'student-welfare',
+    'academic-affairs',
+    // legacy service names
+    'IWD',
+    'FINANCE',
+    'RND',
+    'HMS',
+    'ROOM_INFO',
+    'ADMIN',
+  ]),
   permissions: z.object({
     canCreate: z.boolean(),
     canRead: z.boolean(),
     canUpdate: z.boolean(),
     canDelete: z.boolean(),
     allowedModules: z.array(z.string()),
+  }).optional().default({
+    canCreate: true,
+    canRead: true,
+    canUpdate: true,
+    canDelete: true,
+    allowedModules: [],
   }),
 })
 

@@ -34,6 +34,10 @@ services:
     environment:
       DATABASE_URL: mysql://${MYSQL_USER:-campus}:${MYSQL_PASSWORD:-campuspass123}@db:3306/${MYSQL_DATABASE:-campus_infra}
     command: sh -c "cd apps/global-calendar && npx prisma migrate deploy"
+    # NOTE (MISSION-BRIEF-002): `npm run seed:service-keys` was NOT chained here on purpose.
+    # The `service_keys` table currently has no `updatedAt` column and no migration covers it,
+    # so the seed fails -> `migrate` exits non-zero -> `app` (depends_on service_completed_successfully)
+    # would never start. Wire the seed in once the missing migrations exist. See 09 - Test Results.
     restart: "no"
     networks:
       - campus-net
