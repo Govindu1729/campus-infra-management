@@ -56,3 +56,4 @@ dist/
 # OS files
 .DS_Store
 apps/*/tsconfig.tsbuildinfo
+backups/
