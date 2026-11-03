@@ -66,6 +66,7 @@ model EventParticipant {
   eventId   Int
   userId    Int
   role      ParticipantRole @default(ATTENDEE)
+  rsvpStatus  String   @default("PENDING")
   createdAt DateTime  @default(now())
 
   event     CalendarEvent @relation(fields: [eventId], references: [id], onDelete: Cascade)
@@ -107,7 +108,7 @@ model AuditLog {
   @@index([eventId])
   @@index([userId])
   @@index([timestamp])
-  @@map("audit_logs")
+  @@map("calendar_audit_log")
 }
 
 model Room {
@@ -290,11 +291,12 @@ model FicContact {
   name                String
   officialTitle       String
   primaryEmail        String    @unique
-  secondaryEmail      String?
+  secondaryEmail      String?   @map("secondaryEmails")
   voipNumber          String?
   officeLocation      String?
   systemRole          String?
   functionalCategoryId Int
+  isActive            Boolean   @default(true)
   parentContactId     Int?
   createdAt           DateTime  @default(now())
   updatedAt           DateTime  @updatedAt
