@@ -35,7 +35,7 @@ export async function GET(request: NextRequest, { params }: Ctx) {
   try {
     const user = requireAuth(await getAuthUser(request))
     const event = await prisma.calendarEvent.findUnique({
-      where: { id: BigInt(params.id) },
+      where: { id: Number(params.id) },
       include: { participants: true },
     })
     if (!event) return NextResponse.json({ success: false, message: 'Event not found' }, { status: 404 })
@@ -56,7 +56,7 @@ export async function GET(request: NextRequest, { params }: Ctx) {
 export async function PUT(request: NextRequest, { params }: Ctx) {
   try {
     const user = requireAuth(await getAuthUser(request))
-    const eventId = BigInt(params.id)
+    const eventId = Number(params.id)
     const validated = updateEventSchema.parse(await request.json())
 
     const existing = await prisma.calendarEvent.findUnique({ where: { id: eventId } })
@@ -129,7 +129,7 @@ export async function PUT(request: NextRequest, { params }: Ctx) {
 export async function DELETE(request: NextRequest, { params }: Ctx) {
   try {
     const user = requireAuth(await getAuthUser(request))
-    const eventId = BigInt(params.id)
+    const eventId = Number(params.id)
 
     const existing = await prisma.calendarEvent.findUnique({ where: { id: eventId } })
     if (!existing) return NextResponse.json({ success: false, message: 'Event not found' }, { status: 404 })

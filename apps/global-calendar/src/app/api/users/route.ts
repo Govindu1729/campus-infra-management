@@ -17,7 +17,7 @@ export async function GET(request: NextRequest) {
         name: true,
         positionTitle: true,
         isSystemAdmin: true,
-        permissions: { select: { moduleName: true, canView: true, canEdit: true } },
+        modulePermissions: { select: { moduleName: true, canView: true, canEdit: true } },
       },
     })
 

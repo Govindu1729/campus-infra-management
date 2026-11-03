@@ -16,7 +16,7 @@ export async function GET(
       include: {
         functionalCategory: true,
         parentContact: { select: { officialTitle: true, primaryEmail: true } },
-        secondaryContacts: { select: { officialTitle: true, primaryEmail: true } },
+        childrenContacts: { select: { officialTitle: true, primaryEmail: true } },
       },
     })
 

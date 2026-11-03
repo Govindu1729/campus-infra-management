@@ -16,7 +16,7 @@ const addParticipantsSchema = z.object({
 export async function GET(request: NextRequest, { params }: Ctx) {
   try {
     const user = requireAuth(await getAuthUser(request))
-    const eventId = BigInt(params.id)
+    const eventId = Number(params.id)
 
     const event = await prisma.calendarEvent.findUnique({
       where: { id: eventId },
@@ -59,7 +59,7 @@ export async function GET(request: NextRequest, { params }: Ctx) {
 export async function POST(request: NextRequest, { params }: Ctx) {
   try {
     const user = requireAuth(await getAuthUser(request))
-    const eventId = BigInt(params.id)
+    const eventId = Number(params.id)
     const validated = addParticipantsSchema.parse(await request.json())
 
     const event = await prisma.calendarEvent.findUnique({ where: { id: eventId } })

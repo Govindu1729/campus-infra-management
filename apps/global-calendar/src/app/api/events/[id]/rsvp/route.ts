@@ -14,7 +14,7 @@ const rsvpSchema = z.object({
 export async function POST(request: NextRequest, { params }: Ctx) {
   try {
     const user = requireAuth(await getAuthUser(request))
-    const eventId = BigInt(params.id)
+    const eventId = Number(params.id)
     const validated = rsvpSchema.parse(await request.json())
 
     const participant = await prisma.eventParticipant.findUnique({

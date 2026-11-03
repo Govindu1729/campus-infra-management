@@ -1,15 +1,16 @@
-import { NextResponse } from 'next/server'
+import { NextRequest, NextResponse } from 'next/server'
 import { prisma } from '@/lib/prisma'
 import { getAuthUser } from '@/lib/auth'
 
 export const dynamic = 'force-dynamic'
 
-export async function GET(request: Request) {
+export async function GET(request: NextRequest) {
   try {
     const user = await getAuthUser(request)
-    if (!user) {
+    if (!user || !user.email) {
       return NextResponse.json({ success: false, message: 'Unauthorized' }, { status: 401 })
     }
+    const email = user.email
 
     // Directory is restricted to:
     // 1. System admins
@@ -19,11 +20,11 @@ export async function GET(request: Request) {
     if (!user.isAdmin) {
       // Check if user has any of the allowed roles
       const userContact = await prisma.ficContact.findFirst({
-        where: { primaryEmail: user.email },
+        where: { primaryEmail: email },
         select: { systemRole: true }
       })
       
-      if (!userContact || !allowedRoles.includes(userContact.systemRole)) {
+      if (!userContact || !userContact.systemRole || !allowedRoles.includes(userContact.systemRole)) {
         return NextResponse.json(
           { success: false, message: 'Access denied. Directory is restricted to module owners and administrators.' },
           { status: 403 }
@@ -35,7 +36,7 @@ export async function GET(request: Request) {
       include: {
         functionalCategory: true,
         parentContact: { select: { officialTitle: true, primaryEmail: true } },
-        secondaryContacts: { select: { officialTitle: true, primaryEmail: true } },
+        childrenContacts: { select: { officialTitle: true, primaryEmail: true } },
       },
       orderBy: [
         { functionalCategoryId: 'asc' },

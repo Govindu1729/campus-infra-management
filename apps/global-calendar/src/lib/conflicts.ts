@@ -32,7 +32,7 @@ export async function findRoomConflicts(
   startTime: Date,
   endTime: Date,
   roomKeys: string[],
-  excludeEventId?: bigint
+  excludeEventId?: number
 ): Promise<ConflictHit[]> {
   if (roomKeys.length === 0) return []
 

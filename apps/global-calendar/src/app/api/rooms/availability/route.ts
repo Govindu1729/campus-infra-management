@@ -39,7 +39,7 @@ export async function GET(request: NextRequest) {
         recurrenceRule: null,
         startTime: { lt: endDate },
         endTime: { gt: startDate },
-        ...(exclude ? { id: { not: BigInt(exclude) } } : {}),
+        ...(exclude ? { id: { not: Number(exclude) } } : {}),
       },
       select: { id: true, title: true, sourceModule: true, startTime: true, endTime: true, metadata: true, createdBy: true },
     })

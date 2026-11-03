@@ -1,3 +1,4 @@
+import { NotificationType } from '@prisma/client'
 import { prisma } from '@/lib/prisma'
 import { Resend } from 'resend'
 
