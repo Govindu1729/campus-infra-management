@@ -427,16 +427,6 @@ fix(db): reconcile schema↔DB drift for MISSION-003
 
 ---
 
-## Team & Ownership
-
-| Role | Person | Contact |
-|------|--------|---------|
-| Project Mentor | Prof. Sushobhan Sen | — |
-| Brain (Architecture) | Qwen | — |
-| Executor (Implementation) | OpenClaw `repo-campus-infra` | — |
-| Repository Owner | Govindu Srimaan | `Govindu1729` |
-
----
 
 ## License
 
